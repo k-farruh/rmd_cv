@@ -9,7 +9,7 @@ stored as BibTeX file. Code depends on vitae package. Template is
 combination of vitae::hyndman and template by Steven Miller
 (<http://svmiller.com/blog/2016/03/svm-r-markdown-cv/>).
 
-# Example
+## Example
 
 ``` r
 if (!require(tidyverse)) {install.packages("tidyverse")}
@@ -44,3 +44,9 @@ df_experience %>%
   where = where
   )
 ```
+
+# Projects
+
+RMarkdown code for building projects with reveal.js which can be used to
+create yet another style of HTML5 slides based on the JavaScript library
+reveal.js.
