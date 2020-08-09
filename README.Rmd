@@ -14,39 +14,28 @@ if (!require(tidyverse)) {install.packages("tidyverse")}
 if (!require(lubridate)) {install.packages("lubridate")}
 if (!require(glue)) {install.packages("glue")}
 ```
-# cv
+# CV
 
-RMarkdown code for building CV and resumes from education, experience, and
-awards stored as CSV files and publications stored as BibTeX file. Code depends
+RMarkdown code for building CV and resumes from education, experience, accomplishment, project and
+skills stored as CSV files and publications stored as BibTeX file. Code depends
 on vitae package. Template is combination of vitae::hyndman and
 template by Steven Miller (http://svmiller.com/blog/2016/03/svm-r-markdown-cv/).
 
 # Example
 ```{r}
-# Job titles
-job.titles <- read_csv("data/job-titles.csv",
-                      locale = locale(encoding = 'ISO-8859-1'),
-                      col_types = cols(
-                        begin = col_date("%m/%d/%y"),
-                        end = col_date("%m/%d/%y")
-                        )
-)
-
-# Job descriptions
-job.descriptions <- read_csv("data/job-descriptions.csv",
-                      locale = locale(encoding = 'ISO-8859-1')
-)
-
+if (!require(tidyverse)) {install.packages("tidyverse")}
+if (!require(vitae)) {install.packages("vitae")}
+folder_path = "input/data"
 # Experience section
-job.titles %>% 
-  left_join(job.descriptions) %>% 
-  vitae::detailed_entries(
-    what = position,
-    when = as.character(
-      glue("{year(begin)} - {if_else(!is.na(end), as.character(year(end)), 'present')}")),
-    with = employer,
-    where = glue("{city}, {region}, {country}"),
-    why = accomplishments) %>% 
-  glimpse()
+df_experience <- read_csv(file.path(folder_path, "experience.csv"))
+
+df_experience %>% 
+  detailed_entries(
+  with = title,
+  what = unit,
+  why = detail,
+  when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+  where = where
+  )
 ```
 
