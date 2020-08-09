@@ -1,0 +1,127 @@
+---
+name: Farruh
+surname: Kushnazarov
+position: "Senior Data Scientist"
+address: "China/Shanghai"
+profilepic: "./../input/img/cropped.jpg"
+phone: "+86 173 2116 0407"
+email: "k.farruh@bk.ru"
+www: "k-farruh.github.io"
+github: k-farruh
+linkedin: k-farruh
+# orcid: 0000-0003-0347-6234
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000
+aboutme: "Data scientist with 4+ years of experience executing data-driven solutions to increase efficiency, accuracy. I have a deep driven passion for software, database, and data science."
+docname: CV
+output: vitae::awesomecv
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+if (!require(glue)) {install.packages("glue")}
+if (!require(lubridate)) {install.packages("lubridate")}
+if (!require(rlang)) {install.packages("rlang")}
+if (!require(tidyverse)) {install.packages("tidyverse")}
+if (!require(vitae)) {install.packages("vitae")}
+if (!require(here)) {install.packages("here")}
+```
+
+```{r loadData}
+source(file = here("src", "sc01_data.R"))
+folder_path = "../input/data"
+
+# Education
+df_education <- read_csv(file.path(folder_path, "education.csv"))
+
+# Experience
+df_experience <- read_csv(file.path(folder_path, "experience.csv"))
+
+# Accomplishments
+df_accomplishments <- read_csv(file.path(folder_path, "accomplishments.csv"))
+
+# Projects
+df_projects <- read_csv(file.path(folder_path, "projects.csv"))
+
+# Skills
+df_skills <- read_csv(file.path(folder_path, "skills.csv"))
+```
+
+# Experience
+```{r experience}
+df_experience %>% 
+  filter(unit != 'Tashkent Railway Engineering Institute') %>% 
+  
+  detailed_entries(
+  with = title,
+  what = unit,
+  why = detail,
+  when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+  where = where
+  )
+
+```
+
+<!-- \pagebreak -->
+
+# Education
+```{r education}
+# Merge joint PhD entries
+df_education %>%
+  filter(startYear == 2012) %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    where = where
+  )
+```
+
+# Data Science Skills
+```{r skills}
+df_skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+```
+
+# Select Publications
+```{r selectPubs}
+selected_publications = c("farruhbook2017", "farruhpatent2015", "Farruh2018Apr", "Farruh2019DataSC", "Farruh2017AnalysisOP")
+bibliography_entries("../input/publications.bib") %>%
+  filter(key %in% selected_publications) %>%
+  arrange(desc(year), author)
+```
+
+# Projects
+```{r projects}
+df_projects %>%
+  filter(area == 'Speech Accent Detection') %>% 
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+# Accomplishments
+```{r accomplishments}
+df_accomplishments %>%
+  arrange(desc(year)) %>% 
+  brief_entries(
+    when = year
+    , what = detail
+    , with = area
+    # , when = year
+    # , where = where
+  )
+```

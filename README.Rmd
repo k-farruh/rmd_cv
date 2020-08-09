@@ -1,0 +1,52 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+if (!require(tidyverse)) {install.packages("tidyverse")}
+if (!require(lubridate)) {install.packages("lubridate")}
+if (!require(glue)) {install.packages("glue")}
+```
+# cv
+
+RMarkdown code for building CV and resumes from education, experience, and
+awards stored as CSV files and publications stored as BibTeX file. Code depends
+on vitae package. Template is combination of vitae::hyndman and
+template by Steven Miller (http://svmiller.com/blog/2016/03/svm-r-markdown-cv/).
+
+# Example
+```{r}
+# Job titles
+job.titles <- read_csv("data/job-titles.csv",
+                      locale = locale(encoding = 'ISO-8859-1'),
+                      col_types = cols(
+                        begin = col_date("%m/%d/%y"),
+                        end = col_date("%m/%d/%y")
+                        )
+)
+
+# Job descriptions
+job.descriptions <- read_csv("data/job-descriptions.csv",
+                      locale = locale(encoding = 'ISO-8859-1')
+)
+
+# Experience section
+job.titles %>% 
+  left_join(job.descriptions) %>% 
+  vitae::detailed_entries(
+    what = position,
+    when = as.character(
+      glue("{year(begin)} - {if_else(!is.na(end), as.character(year(end)), 'present')}")),
+    with = employer,
+    where = glue("{city}, {region}, {country}"),
+    why = accomplishments) %>% 
+  glimpse()
+```
+
