@@ -83,12 +83,12 @@ if (!file.exists(file_path_experience)) {
     df_experience <- tribble(
         ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
         # TutorABC
-        "Big Data & Data Scientist Manager", "TutorABC - iTutorGroup", "September", 2016, "Present", NA, "Shanghai, China", "LANGUAGES USED --- Python, R, RMarkdown, SQL, Spark, Hive.",
-        "Big Data & Data Scientist Manager", "TutorABC - iTutorGroup", "September", 2016, "Present", NA, "Shanghai, China", "Conduct classification analyses of the customer life cycle stage to increase overall turnover.",
-        "Big Data & Data Scientist Manager", "TutorABC - iTutorGroup", "September", 2016, "Present", NA, "Shanghai, China", "Algorithmic optimizes ongoing ML/DL models and check the performance of implemented models.",
-        "Big Data & Data Scientist Manager", "TutorABC - iTutorGroup", "September", 2016, "Present", NA, "Shanghai, China", "Established a Machine Learning model refund customers and update the refund model. Decreased refund overall refund rate to 27%.",
-        "Big Data & Data Scientist Manager", "TutorABC - iTutorGroup", "September", 2016, "Present", NA, "Shanghai, China", "Implemented and retrained Mozilla DeepSpeech library for Automatic Speech Recognition.",
-        "Big Data & Data Scientist Manager", "TutorABC - iTutorGroup", "September", 2016, "Present", NA, "Shanghai, China", "Created and tested the Speech Accent Classification system for native and non-native speakers, with recall 99%.",
+        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "LANGUAGES USED --- Python, R, RMarkdown, SQL, Spark, Hive.",
+        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "Conduct classification analyses of the customer life cycle stage to increase overall turnover.",
+        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "Algorithmic optimizes ongoing ML/DL models and check the performance of implemented models.",
+        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "Established a Machine Learning model refund customers and update the refund model. Decreased refund overall refund rate to 27%.",
+        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "Implemented and retrained Mozilla DeepSpeech library for Automatic Speech Recognition.",
+        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "Created and tested the Speech Accent Classification system for native and non-native speakers, with recall 99%.",
         # PeriPlus AG
         "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "LANGUAGES USED --- Python, R, RMarkdown, SQL",
         "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Establish and manage the data scientist team. Construct computer vision projects. Bring to production AI/ML/DL projects.",
