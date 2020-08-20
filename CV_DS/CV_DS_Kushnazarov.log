@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.7.23)  11 AUG 2020 20:29
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.8.18)  19 AUG 2020 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **CV_DS_Kushnazarov.tex
 (./CV_DS_Kushnazarov.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-07-17> (./awesome-cv.cls
+L3 programming layer <2020-08-07> (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -139,9 +139,9 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/farr
 uh/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/farruh/.Ti
 nyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-07-17 L3 programming layer (loader) 
+Package: expl3 2020-08-07 L3 programming layer (loader) 
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
-File: l3backend-xdvipdfmx.def 2020-06-29 L3 backend support: xdvipdfmx
+File: l3backend-xdvipdfmx.def 2020-08-07 L3 backend support: xdvipdfmx
 \g__graphics_track_int=\count181
 \l__pdf_internal_box=\box48
 \g__pdf_backend_object_int=\count182
@@ -260,7 +260,7 @@ ric.tex)
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xelu
 atex.tex)) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/academicons/academicons.
 sty
-Package: academicons 2018/06/27 v1.8.6-2 Academicons Icons
+Package: academicons 2020/08/14 v1.9.0 Academicons Icons
 ) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty
 Package: sourcesanspro 2018/05/19 v2.7 Adobe's Source Sans Pro typeface
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -1209,12 +1209,12 @@ Package logreq Info: Writing requests to 'CV_DS_Kushnazarov.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39170 strings out of 481704
- 775145 string characters out of 5933512
- 1591486 words of memory out of 5000000
- 55642 multiletter control sequences out of 15000+600000
+ 39262 strings out of 481691
+ 776632 string characters out of 5933311
+ 1592836 words of memory out of 5000000
+ 55747 multiletter control sequences out of 15000+600000
  540021 words of font info for 127 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 67i,11n,112p,1749b,5061s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,11n,112p,1751b,5061s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CV_DS_Kushnazarov.pdf (2 pages).
