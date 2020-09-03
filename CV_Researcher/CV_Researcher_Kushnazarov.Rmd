@@ -105,7 +105,8 @@ df_projects %>%
     what = accomplishment,
     why = detail,
     when = year,
-    where = where
+    where = where,
+    .protect = FALSE
   )
 
 ```

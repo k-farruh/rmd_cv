@@ -15,8 +15,6 @@ headcolor: 990000
 aboutme: "Data scientist with 4+ years of experience executing data-driven solutions to increase efficiency, accuracy. I have a deep driven passion for software, database, and data science."
 docname: CV
 output: vitae::awesomecv
-editor_options: 
-  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -109,7 +107,8 @@ df_projects %>%
     what = accomplishment,
     why = detail,
     when = year,
-    where = where
+    where = where,
+    .protect = FALSE
   )
 ```
 

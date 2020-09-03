@@ -19,11 +19,11 @@ file_path_projects = file.path(folder_path, "projects.csv")
 if (!file.exists(file_path_projects)) {
     df_projects <- tribble(
         ~area, ~accomplishment, ~year, ~where, ~detail,
-        "Speech Accent Detection", "Everyone who speaks a language, speaks it with an accent. This project define accent for english language speakers", 2020, "https://github.com/k-farruh/speech-accent-detection", "Author and Maintainer"
-        , "Moscow City", "Moscow City Project, which is made by 5 different office building groups with different requirements to smart system & linking. Companies main job is to make computer programming of center control & night light adjustment. More then 800 square meters, with 15000 signals from different controllers.", 2015, "", "Maintainer"
-        , "L-Cube", "Implemented at the company L-Cube LLC in order to optimize the performance of the departmental network", 2015, "", "Author and Maintainer"
-        , "EMC", "Certificates from EMC2 Data-Center about Value of Research and Possibility of Implementation the Model", 2016, "", "Author and Maintainer"
-        , "IntellektTrans", "Intelligent rail system transportation summit. As one of the members of the Organizing Committee of the intelligent rail system transportation summit, the organization participated in the summit and attended the meeting.", 2009, "https://intelligenttransportconference.com/", "Volunteer"
+        "Speech Accent Detection", "Everyone who speaks a language, speaks it with an accent. This project define accent for english language speakers", 2020, "\\href{https://github.com/k-farruh/speech-accent-detection}{Project Link}", "Author and Maintainer"
+        , "Moscow City", "Moscow City Project, which is made by 5 different office building groups with different requirements to smart system and linking. Companies main job is to make computer programming of center control and night light adjustment. More then 800 square meters, with 15000 signals from different controllers.", 2015, "\\href{http://domussapiens.ru/nashi-obekty/kommercheskie-obekty/moskva-siti}{Project Link}", "Maintainer"
+        , "L-Cube", "Implemented at the company L-Cube LLC in order to optimize the performance of the departmental network", 2015, "\\href{https://l-cube.ru/}{Company WebPage}", "Author and Maintainer"
+        , "EMC", "Certificates from EMC2 Data-Center about Value of Research and Possibility of Implementation the Model", 2016, "\\href{https://k-farruh.github.io/files/projects/emc_dell/emc_dell.png}{Implementation Certificate}", "Author and Maintainer"
+        , "IntellektTrans", "Intelligent rail system transportation summit. As one of the members of the Organizing Committee of the intelligent rail system transportation summit, the organization participated in the summit and attended the meeting.", 2009, "\\href{https://intelligenttransportconference.com}{Conference WebPage}", "Volunteer"
     )
     
     write_csv(df_projects, path = file_path_projects)
@@ -53,11 +53,11 @@ if (!file.exists(file_path_skills)) {
     df_skills <- tribble(
         ~area, ~skills,
         "Communication", "presentations (technical and non-technical), dashboard design, data analysis reports, scientific publications, data visualization",
-        "Programming/Markup Languages", "BASH, C/C++, Python, R, SQL, Matlab, CSS, HTML, LaTeX, Markdown, RMarkdown",
-        "Software Development", "version control, automated testing, continuous integration",
+        "Programming/Markup Languages", "Python, R, SQL/NoSQL, Hive, Spark, C/C++, Matlab, BASH, CSS, HTML, LaTeX, Markdown, RMarkdown",
+        "Software Development", "Docker, Git, version control, automated testing, continuous integration",
         "Numerical Methods", "optimization (stochastic, genetic, multi-start), numerical solution of differential equations",
         "Statistics", "machine learning, data analysis, generalized linear regression, cluster analysis, factor analysis, principal components analysis (PCA), cross validation, generalized additive models, data analytics, Monte Carlo simulation",
-        "Text Editors", "Jupyter-Notebook, PyTorch, RStudio, SQL Server Management Studio, VIM, Visual Studio",
+        "Environments", "Linux, Jupyter-Notebook, PyTorch, RStudio, ETL, SQL Server Management Studio, Azure Data Studio, VIM, Visual Studio",
     )
     write_csv(df_skills, path = file_path_skills)
 }
@@ -96,19 +96,19 @@ if (!file.exists(file_path_experience)) {
         "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Created a container number recognition system using object detection and character recognition models. Using an internal tool as part of a container tracking system.",
         "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Internal face recognition system for customers.",
         # Haima
-        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "May", 2016, "September", 2016, "Shanghai, China", "LANGUAGES USED --- C/C++, Python, Bash",
-        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "May", 2016, "September", 2016, "Shanghai, China", "CANBus connect lidar, radar, decrease noises in raw data from them.",
-        # "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "May", 2016, "September", 2016, "Shanghai, China", "Model working logic two computers, one is the main computer, second is a backup computer.",
-        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "May", 2016, "September", 2016, "Shanghai, China", "Optimize joint work and logic compatibility of equipment.
+        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "LANGUAGES USED --- C/C++, Python, Bash",
+        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "CANBus connect lidar, radar, decrease noises in raw data from them.",
+        # "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Model working logic two computers, one is the main computer, second is a backup computer.",
+        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Optimize joint work and logic compatibility of equipment.
     ",
         # Tashkent Railway Engineering Institute
         "Head of the department information technologies and associate professor", "Tashkent Railway Engineering Institute", "March", 2016, "April", 2016, "Tashkent, Uzbekistan", "The introduction of advanced computer curriculum improvement theory.",
         "Head of the department information technologies and associate professor", "Tashkent Railway Engineering Institute", "March", 2016, "April", 2016, "Tashkent, Uzbekistan", "Advocating paperless examination and approval.",
         # Domus Sapiens
-        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "December", 2014, "St Petersburg, Russia", "LANGUAGES USED --- C/C++, Assembler, Bash",
-        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "December", 2014, "St Petersburg, Russia", "I worked alone on more than 20 large and small projects of intelligent systems. One of the most famous and complicated cases is the \"smart system development of Moscow city.\"",
-        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "December", 2014, "St Petersburg, Russia", "The project \"Moscow city\" is composed of five high buildings with styles, different functions of the office buildings, and hotels for each building. Each floor's requirements were not the same, equivalent to a small smart city system. We successfully finished the project and for this project, Domus Sapiens got several rewards.",
-        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "December", 2014, "St Petersburg, Russia", "Implemented the created and got a patent model to improve the quality of data transfer in the wireless network.",
+        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "LANGUAGES USED --- C/C++, Assembler, Bash",
+        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "I worked alone on more than 20 large and small projects of intelligent systems. One of the most famous and complicated cases is the \"smart system development of Moscow city.\"",
+        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "The project \"Moscow city\" is composed of five high buildings with styles, different functions of the office buildings, and hotels for each building. Each floor's requirements were not the same, equivalent to a small smart city system. We successfully finished the project and for this project, Domus Sapiens got several rewards.",
+        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "Implemented the created and got a patent model to improve the quality of data transfer in the wireless network.",
         # ProDVD
         "Software Engineer", "ProDVD (Part-Time)", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "LANGUAGES USED --- C/C++",
         "Software Engineer", "ProDVD (Part-Time)", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "ProDVD is a Korean/USA joint venture that was located in Tashkent. Mainly provides a service development and production program for mobile phones and TV and other electronic products.",

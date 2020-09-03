@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.8.18)  19 AUG 2020 16:58
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.8.16)  3 SEP 2020 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1210,11 +1210,11 @@ Package logreq Info: Writing requests to 'CV_DS_Kushnazarov.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  39262 strings out of 481691
- 776632 string characters out of 5933311
- 1592836 words of memory out of 5000000
+ 776674 string characters out of 5933311
+ 1592872 words of memory out of 5000000
  55747 multiletter control sequences out of 15000+600000
  540021 words of font info for 127 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 67i,11n,112p,1751b,5061s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,11n,112p,1753b,5061s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CV_DS_Kushnazarov.pdf (2 pages).
