@@ -1,23 +1,26 @@
 ---
-name: Farruh
+name: 法如赫 - Farruh 
 surname: Kushnazarov
-position: "Senior Data Scientist"
-address: "China/Shanghai"
+position: "资深数据科学家"
+address: "中国/上海"
 profilepic: "./../input/img/cropped.jpg"
-phone: "+86 173 2116 0407"
 email: "k.farruh@bk.ru"
+phone: "+86 173 2116 0407"
 www: "k-farruh.github.io"
 github: k-farruh
 linkedin: k-farruh
-# orcid: 0000-0003-0347-6234
+orcid: 0000-0003-0347-6234
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
-aboutme: "Data scientist with 4+ years of experience executing data-driven solutions to increase efficiency, accuracy. I have a deep driven passion for software, database, and data science."
+aboutme: "我最喜欢的学科是数学和通信网络系统。 因此，涉及到通信网络系统。 作为研究人员，我不仅在理论方面进行了考虑，而且还与多家公司合作进行应用。 此外，每个结果都为在数据中心，智能城市和其他项目上的实施提供了。 在俄罗斯，尤其是圣彼得堡研究人员，我的论文在其他研究人员的数十次会议中经常被引用和讨论。 每年，我都会在国际会议上发表有关人工智能和通信网络领域的科学文章，包括IEEE，ACM等全球学术平台。"
 docname: CV
 output: vitae::awesomecv
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = FALSE,
                       warning = FALSE,
                       message = FALSE)
@@ -31,17 +34,19 @@ if (!require(here)) {install.packages("here")}
 ```
 
 ```{r loadData}
+
 source(file = here("src", "sc01_data.R"))
+
 folder_path = "../input/data"
+
+# Accomplishments
+df_accomplishments <- read_csv(file.path(folder_path, "accomplishments.csv"))
 
 # Education
 df_education <- read_csv(file.path(folder_path, "education.csv"))
 
 # Experience
 df_experience <- read_csv(file.path(folder_path, "experience.csv"))
-
-# Accomplishments
-df_accomplishments <- read_csv(file.path(folder_path, "accomplishments.csv"))
 
 # Projects
 df_projects <- read_csv(file.path(folder_path, "projects.csv"))
@@ -50,28 +55,21 @@ df_projects <- read_csv(file.path(folder_path, "projects.csv"))
 df_skills <- read_csv(file.path(folder_path, "skills.csv"))
 ```
 
-# Experience
+# 经验
 ```{r experience}
 df_experience %>% 
-  filter(unit != 'Tashkent Railway Engineering Institute') %>% 
-  
-  detailed_entries(
-  with = title,
-  what = unit,
-  why = detail,
-  when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
-  where = where
+    detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
   )
-
 ```
 
-<!-- \pagebreak -->
-
-# Education
+# 学术
 ```{r education}
-# Merge joint PhD entries
 df_education %>%
-  filter(startYear == 2012) %>%
   detailed_entries(
     with = inst,
     what = degree,
@@ -81,7 +79,7 @@ df_education %>%
   )
 ```
 
-# Data Science Skills
+# 数据科学技能
 ```{r skills}
 df_skills %>%
   detailed_entries(
@@ -90,18 +88,18 @@ df_skills %>%
   )
 ```
 
-# Select Publications
+# 刊物
 ```{r selectPubs}
-selected_publications = c("farruhbook2017", "farruhpatent2015", "Farruh2018Apr", "Farruh2019DataSC", "Farruh2017AnalysisOP")
+
+# Publications
 bibliography_entries("../input/publications.bib") %>%
-  filter(key %in% selected_publications) %>%
   arrange(desc(year), author)
 ```
 
-# Projects
+# 专案
 ```{r projects}
+
 df_projects %>%
-  filter(area == 'Speech Accent Detection') %>% 
   detailed_entries(
     with = area,
     what = accomplishment,
@@ -110,9 +108,10 @@ df_projects %>%
     where = where,
     .protect = FALSE
   )
+
 ```
 
-# Accomplishments
+# 成就
 ```{r accomplishments}
 df_accomplishments %>%
   arrange(desc(year)) %>% 
@@ -121,7 +120,6 @@ df_accomplishments %>%
     , what = detail
     , with = area
     # , when = year
-    # , where = where,
-    , .protect = FALSE
+    # , where = where
   )
 ```

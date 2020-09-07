@@ -22,7 +22,7 @@ if (!file.exists(file_path_projects)) {
         "Speech Accent Detection", "Everyone who speaks a language, speaks it with an accent. This project define accent for english language speakers", 2020, "\\href{https://github.com/k-farruh/speech-accent-detection}{Project Link}", "Author and Maintainer"
         , "Moscow City", "Moscow City Project, which is made by 5 different office building groups with different requirements to smart system and linking. Companies main job is to make computer programming of center control and night light adjustment. More then 800 square meters, with 15000 signals from different controllers.", 2015, "\\href{http://domussapiens.ru/nashi-obekty/kommercheskie-obekty/moskva-siti}{Project Link}", "Maintainer"
         , "L-Cube", "Implemented at the company L-Cube LLC in order to optimize the performance of the departmental network", 2015, "\\href{https://l-cube.ru/}{Company WebPage}", "Author and Maintainer"
-        , "EMC", "Certificates from EMC2 Data-Center about Value of Research and Possibility of Implementation the Model", 2016, "\\href{https://k-farruh.github.io/files/projects/emc_dell/emc_dell.png}{Implementation Certificate}", "Author and Maintainer"
+        , "EMC-DELL", "Certificates from EMC2 Data-Center about Value of Research and Possibility of Implementation the Model", 2016, "\\href{https://k-farruh.github.io/files/projects/emc_dell/emc_dell.png}{Implementation Certificate}", "Author and Maintainer"
         , "IntellektTrans", "Intelligent rail system transportation summit. As one of the members of the Organizing Committee of the intelligent rail system transportation summit, the organization participated in the summit and attended the meeting.", 2009, "\\href{https://intelligenttransportconference.com}{Conference WebPage}", "Volunteer"
     )
     
@@ -34,15 +34,16 @@ file_path_accomplishments = file.path(folder_path, "accomplishments.csv")
 if (!file.exists(file_path_accomplishments)) {
     df_accomplishments <- tribble(
         ~area, ~detail, ~year, ~where, ~accomplishment,
-        "Dell EMC", "Data Science - effective use of data", 2012, "St Petersburg, Russia", "EMC-Academic Alliance"
-        , "Dell EMC", "ISM - administration of information and data storage", 2012, "St Petersburg, Russia", ""
-        , "Big Data University", "Big Data 101", 2017, "Online", ""
+        "\\href{https://coursera.org/share/0bf6cab184657077fca8ef68546282d7}{IBM and Coursera}", "Data Analysis with Python", 2020, "Online", "IBM"
+        ,"DELL-EMC", "Data Science - effective use of data", 2012, "St Petersburg, Russia", "DELL-EMC-Academic Alliance"
+        , "DELL-EMC", "ISM - administration of information and data storage", 2012, "St Petersburg, Russia", "DELL-EMC-Academic Alliance"
+        , "Big Data University", "Big Data 101", 2017, "Online", "IBM"
         , "IBM", "Certificate of passing the course Fundamentals of IBM z Series", 2007, "St Petersburg, Russia", ""
         , "Smart City and IoT", "Certificate of knowledge of technology AMX I - II level", 2013, "Moscow, Russia", ""
         , "Smart City and IoT", "Certificate of knowledge of ABB technology I-III", 2013, "St Petersburg, Russia", ""
         , "Smart City and IoT", "Certificate knowledge of technology Crestron I - II level", 2013, "St Petersburg, Russia", ""
-        , "Intuit National Open University", "The C Programming Language", 2012, "Online", ""
-        , "Intuit National Open University", "Data Mining", 2016, "Online", ""
+        , "\\href{https://www.intuit.ru/verifydiplomas/00163698}{Intuit National Open University}", "The C Programming Language", 2012, "Online", ""
+        , "\\href{https://www.intuit.ru/verifydiplomas/100998270}{Intuit National Open University}", "Data Mining", 2016, "Online", ""
     )
     write_csv(df_accomplishments, path = file_path_accomplishments)
 }
@@ -69,10 +70,10 @@ if (!file.exists(file_path_education)) {
         ~inst,  ~startMonth, ~startYear, ~endMonth, ~endYear, ~degree, ~where, ~detail,
         "Emperor Alexander I St.Petersburg State Transport University", "September", 2012, "March", 2016, "Mathematical modeling, numerical methods, and computer programs", "St Petersburg, Russia", "Doctor of Philosophy (Ph.D.)"
         , "Emperor Alexander I St.Petersburg State Transport University", "September", 2012, "March", 2016, "Mathematical modeling, numerical methods, and computer programs", "St Petersburg, Russia","Research field: Develop data transmission methods for evaluating the real speed of data link layer protocols, which aimed at improving hardware and software components"
-        , "Emperor Alexander I St.Petersburg State Transport University", "September", 2006, "July", 2010, "Information systems and technologies", "St Petersburg, Russia", "Degree: specialist engineer (equal to Master and Bachelor Degree)"
-        , "Emperor Alexander I St.Petersburg State Transport University", "September", 2006, "July", 2010, "Information systems and technologies", "St Petersburg, Russia","Research field: Develop and optimizing computer network systems"
-        , "Tashkent Railway Engineering Institute", "September", 2004, "July", 2006, "Information systems in railway transport", "Tashkent, Uzbekistan","Degree: Bachelor"
-        , "Tashkent Railway Engineering Institute", "September", 2004, "July", 2006, "Information systems in railway transport", "Tashkent, Uzbekistan","Research field: Develop and optimizing computer network systems"
+        , "Emperor Alexander I St.Petersburg State Transport University", "September", 2008, "June", 2010, "Information systems and technologies", "St Petersburg, Russia", "Degree: Master of Science"
+        , "Emperor Alexander I St.Petersburg State Transport University", "September", 2008, "June", 2010, "Information systems and technologies", "St Petersburg, Russia","Research field: Develop and optimizing computer network systems"
+        , "Emperor Alexander I St.Petersburg State Transport University", "September", 2004, "June", 2008, "Information systems and technologies", "St Petersburg, Russia", "Degree: Bachelor"
+        , "Emperor Alexander I St.Petersburg State Transport University", "September", 2004, "June", 2008, "Information systems and technologies", "St Petersburg, Russia","Research field: Develop and optimizing computer network systems"
     )
     write_csv(df_education, path = file_path_education)
 }
@@ -99,11 +100,7 @@ if (!file.exists(file_path_experience)) {
         "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "LANGUAGES USED --- C/C++, Python, Bash",
         "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "CANBus connect lidar, radar, decrease noises in raw data from them.",
         # "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Model working logic two computers, one is the main computer, second is a backup computer.",
-        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Optimize joint work and logic compatibility of equipment.
-    ",
-        # Tashkent Railway Engineering Institute
-        "Head of the department information technologies and associate professor", "Tashkent Railway Engineering Institute", "March", 2016, "April", 2016, "Tashkent, Uzbekistan", "The introduction of advanced computer curriculum improvement theory.",
-        "Head of the department information technologies and associate professor", "Tashkent Railway Engineering Institute", "March", 2016, "April", 2016, "Tashkent, Uzbekistan", "Advocating paperless examination and approval.",
+        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Optimize joint work and logic compatibility of equipment.",
         # Domus Sapiens
         "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "LANGUAGES USED --- C/C++, Assembler, Bash",
         "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "I worked alone on more than 20 large and small projects of intelligent systems. One of the most famous and complicated cases is the \"smart system development of Moscow city.\"",

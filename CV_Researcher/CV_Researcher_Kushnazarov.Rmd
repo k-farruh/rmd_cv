@@ -88,7 +88,7 @@ df_skills %>%
   )
 ```
 
-# Select Publications
+# Publications
 ```{r selectPubs}
 
 # Publications
@@ -120,6 +120,7 @@ df_accomplishments %>%
     , what = detail
     , with = area
     # , when = year
-    # , where = where
+    # , where = where,
+    , .protect = FALSE
   )
 ```

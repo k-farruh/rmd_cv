@@ -1,0 +1,237 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{990000}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\photo{./../input/img/cropped.jpg}
+\name{法如赫 - Farruh}{Kushnazarov}
+
+\position{资深数据科学家}
+\address{中国/上海}
+
+\mobile{+86 173 2116 0407}
+\email{\href{mailto:k.farruh@bk.ru}{\nolinkurl{k.farruh@bk.ru}}}
+\homepage{k-farruh.github.io}
+\orcid{0000-0003-0347-6234}
+\github{k-farruh}
+\linkedin{k-farruh}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{我最喜欢的学科是数学和通信网络系统。 因此，涉及到通信网络系统。 作为研究人员，我不仅在理论方面进行了考虑，而且还与多家公司合作进行应用。 此外，每个结果都为在数据中心，智能城市和其他项目上的实施提供了。 在俄罗斯，尤其是圣彼得堡研究人员，我的论文在其他研究人员的数十次会议中经常被引用和讨论。 每年，我都会在国际会议上发表有关人工智能和通信网络领域的科学文章，包括IEEE，ACM等全球学术平台。}
+
+\usepackage{booktabs}
+
+% Templates for detailed entries
+% Arguments: what when with where why
+\usepackage{etoolbox}
+\def\detaileditem#1#2#3#4#5{%
+\cventry{#1}{#3}{#4}{#2}{\ifx#5\empty\else{\begin{cvitems}#5\end{cvitems}}\fi}\ifx#5\empty{\vspace{-4.0mm}}\else\fi}
+\def\detailedsection#1{\begin{cventries}#1\end{cventries}}
+
+% Templates for brief entries
+% Arguments: what when with
+\def\briefitem#1#2#3{\cvhonor{}{#1}{#3}{#2}}
+\def\briefsection#1{\begin{cvhonors}#1\end{cvhonors}}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+%%%% BIBLIOGRAPHY
+% Bibliography formatting
+
+\usepackage[sorting=ynt,citestyle=authoryear,bibstyle=authoryear-comp,defernumbers=true,maxnames=20,giveninits=true, bibencoding=utf8, terseinits=true, uniquename=init,dashed=false,doi=false,isbn=false,natbib=true,backend=biber]{biblatex}
+
+\DeclareFieldFormat{url}{\url{#1}}
+\DeclareFieldFormat[article]{pages}{#1}
+\DeclareFieldFormat[inproceedings]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[incollection]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+\DeclareFieldFormat[article]{title}{\MakeCapital{#1}}
+\DeclareFieldFormat[article]{url}{}
+\DeclareFieldFormat[inproceedings]{title}{#1}
+\DeclareFieldFormat{shorthandwidth}{#1}
+\DeclareFieldFormat{extradate}{}
+
+% No dot before number of articles
+\usepackage{xpatch}
+\xpatchbibmacro{volume+number+eid}{\setunit*{\adddot}}{}{}{}
+
+% Remove In: for an article.
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{%
+  \printtext{\bibstring{in}\intitlepunct}}}
+
+%\makeatletter
+%\DeclareDelimFormat[cbx@textcite]{nameyeardelim}{\addspace}
+%\makeatother
+
+\setlength{\bibitemsep}{1.8pt}
+\setlength{\bibhang}{.9cm}
+%\renewcommand{\bibfont}{\fontsize{12}{14}}
+
+\renewcommand*{\bibitem}{\addtocounter{papers}{1}\item \mbox{}\hskip-0.9cm\hbox to 0.9cm{\hfill\arabic{papers}.~\,}}
+\defbibenvironment{bibliography}
+{\list{}
+  {\setlength{\leftmargin}{\bibhang}%
+   \setlength{\itemsep}{\bibitemsep}%
+   \setlength{\parsep}{\bibparsep}}}
+{\endlist}
+{\bibitem}
+
+\renewcommand{\bibfont}{\normalfont\fontsize{10}{12.4}\selectfont}
+% Counters for keeping track of papers
+\newcounter{papers}
+
+\DeclareSortingTemplate{ty}{
+  \sort{
+    \field{title}
+  }
+  \sort{
+    \field{year}
+  }
+}
+\DeclareBibliographyCategory{bib-/mnt/data/cloud_disks/Yandex.Disk/Работа/CV/rmd/rmd_cv/input/publications.bib-1765141}
+\bibliography{/mnt/data/cloud_disks/Yandex.Disk/Работа/CV/rmd/rmd_cv/input/publications.bib}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {September 2020}
+    {法如赫 - Farruh Kushnazarov~~~·~~~CV}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{ux7ecfux9a8c}{%
+\section{经验}\label{ux7ecfux9a8c}}
+
+\detailedsection{\detaileditem{iTutorGroup-Ping An}{September 2016 --> Present }{Big Data \& Data Scientist Manager}{Shanghai, China}{\item{LANGUAGES USED --- Python, R, RMarkdown, SQL, Spark, Hive.}\item{Conduct classification analyses of the customer life cycle stage to increase overall turnover.}\item{Algorithmic optimizes ongoing ML/DL models and check the performance of implemented models.}\item{Established a Machine Learning model refund customers and update the refund model. Decreased refund overall refund rate to 27\%.}\item{Implemented and retrained Mozilla DeepSpeech library for Automatic Speech Recognition.}\item{Created and tested the Speech Accent Classification system for native and non-native speakers, with recall 99\%.}}\detaileditem{PeriPlus AG (Part-Time)}{November 2018 --> July 2019}{Data Scientist (Consultant)}{Online}{\item{LANGUAGES USED --- Python, R, RMarkdown, SQL}\item{Establish and manage the data scientist team. Construct computer vision projects. Bring to production AI/ML/DL projects.}\item{Created a data scientist team from scratch in three months. Trained candidates with a piece of good basic knowledge.}\item{Created a container number recognition system using object detection and character recognition models. Using an internal tool as part of a container tracking system.}\item{Internal face recognition system for customers.}}\detaileditem{Haima automatic Investment Group Co. Ltd, R\&D Center}{April 2016 --> September 2016}{Automatic Driving Prospective Technology Engineer}{Shanghai, China}{\item{LANGUAGES USED --- C/C++, Python, Bash}\item{CANBus connect lidar, radar, decrease noises in raw data from them.}\item{Optimize joint work and logic compatibility of equipment.}}\detaileditem{Domus Sapiens}{January 2011 --> May 2015}{Senior Programmer, Data analyst}{St Petersburg, Russia}{\item{LANGUAGES USED --- C/C++, Assembler, Bash}\item{I worked alone on more than 20 large and small projects of intelligent systems. One of the most famous and complicated cases is the ``smart system development of Moscow city.''}\item{The project ``Moscow city'' is composed of five high buildings with styles, different functions of the office buildings, and hotels for each building. Each floor's requirements were not the same, equivalent to a small smart city system. We successfully finished the project and for this project, Domus Sapiens got several rewards.}\item{Implemented the created and got a patent model to improve the quality of data transfer in the wireless network.}}\detaileditem{ProDVD (Part-Time)}{October 2010 --> March 2012}{Software Engineer}{Tashkent, Uzbekistan}{\item{LANGUAGES USED --- C/C++}\item{ProDVD is a Korean/USA joint venture that was located in Tashkent. Mainly provides a service development and production program for mobile phones and TV and other electronic products.}\item{Developed the smart card king software for a mobile phone, which suitable for Android and iOS systems, making it convenient for business people to organize and store business cards.}\item{Developed the audio encoding/decoding part of the Blu Ray player. I also invented the word recognition software used in the library based on the iOS system.}}\detaileditem{Tashkent Railway Engineering Institute}{September 2010 --> July 2012}{Assistant of Professor}{Tashkent, Uzbekistan}{\item{To conduct laboratory and practical classes for below subjects:}\item{Programming in C/C++ languages;}\item{Network \& communication systems on the railway;}\item{Information systems on railway transport.}\item{To assist the professor in research work, create application parts, and simulation parts of analytical models.}}}
+
+\hypertarget{ux5b66ux672f}{%
+\section{学术}\label{ux5b66ux672f}}
+
+\detailedsection{\detaileditem{Mathematical modeling, numerical methods, and computer programs}{2012 --> 2016}{Emperor Alexander I St.Petersburg State Transport University}{St Petersburg, Russia}{\item{Doctor of Philosophy (Ph.D.)}\item{Research field: Develop data transmission methods for evaluating the real speed of data link layer protocols, which aimed at improving hardware and software components}}\detaileditem{Information systems and technologies}{2006 --> 2010}{Emperor Alexander I St.Petersburg State Transport University}{St Petersburg, Russia}{\item{Degree: specialist engineer (equal to Master and Bachelor Degree)}\item{Research field: Develop and optimizing computer network systems}}\detaileditem{Information systems in railway transport}{2004 --> 2006}{Tashkent Railway Engineering Institute}{Tashkent, Uzbekistan}{\item{Degree: Bachelor}\item{Research field: Develop and optimizing computer network systems}}}
+
+\hypertarget{ux6570ux636eux79d1ux5b66ux6280ux80fd}{%
+\section{数据科学技能}\label{ux6570ux636eux79d1ux5b66ux6280ux80fd}}
+
+\detailedsection{\detaileditem{presentations (technical and non-technical), dashboard design, data analysis reports, scientific publications, data visualization}{}{Communication}{}{\empty}\detaileditem{Python, R, SQL/NoSQL, Hive, Spark, C/C++, Matlab, BASH, CSS, HTML, LaTeX, Markdown, RMarkdown}{}{Programming/Markup Languages}{}{\empty}\detaileditem{Docker, Git, version control, automated testing, continuous integration}{}{Software Development}{}{\empty}\detaileditem{optimization (stochastic, genetic, multi-start), numerical solution of differential equations}{}{Numerical Methods}{}{\empty}\detaileditem{machine learning, data analysis, generalized linear regression, cluster analysis, factor analysis, principal components analysis (PCA), cross validation, generalized additive models, data analytics, Monte Carlo simulation}{}{Statistics}{}{\empty}\detaileditem{Linux, Jupyter-Notebook, PyTorch, RStudio, ETL, SQL Server Management Studio, Azure Data Studio, VIM, Visual Studio}{}{Environments}{}{\empty}}
+
+\hypertarget{ux520aux7269}{%
+\section{刊物}\label{ux520aux7269}}
+
+\defbibheading{bib-/mnt/data/cloud_disks/Yandex.Disk/Работа/CV/rmd/rmd_cv/input/publications.bib-1765141}{}
+\addtocategory{bib-/mnt/data/cloud_disks/Yandex.Disk/Работа/CV/rmd/rmd_cv/input/publications.bib-1765141}{kushnazarov2020consumer,
+Farruh2019DataSC,
+Farruh2018Apr,
+kushnazarov2018railway,
+Farruh2017AnalysisOP,
+farruhbook2017,
+Farruh2016thesis,
+kushnazarov2016analysis,
+Farruh2015_ivs,
+farruhpatent2015,
+Farruh2015dec,
+kushnazarov2015comparison,
+kushnazarov2018cyclic}
+\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
+\printbibliography[category=bib-/mnt/data/cloud_disks/Yandex.Disk/Работа/CV/rmd/rmd_cv/input/publications.bib-1765141,heading=none]\setcounter{papers}{0}
+
+\nocite{kushnazarov2020consumer,
+Farruh2019DataSC,
+Farruh2018Apr,
+kushnazarov2018railway,
+Farruh2017AnalysisOP,
+farruhbook2017,
+Farruh2016thesis,
+kushnazarov2016analysis,
+Farruh2015_ivs,
+farruhpatent2015,
+Farruh2015dec,
+kushnazarov2015comparison,
+kushnazarov2018cyclic}
+
+\hypertarget{ux4e13ux6848}{%
+\section{专案}\label{ux4e13ux6848}}
+
+\detailedsection{\detaileditem{Everyone who speaks a language, speaks it with an accent. This project define accent for english language speakers}{2020}{Speech Accent Detection}{\href{https://github.com/k-farruh/speech-accent-detection}{Project Link}}{\item{Author and Maintainer}}\detaileditem{Moscow City Project, which is made by 5 different office building groups with different requirements to smart system and linking. Companies main job is to make computer programming of center control and night light adjustment. More then 800 square meters, with 15000 signals from different controllers.}{2015}{Moscow City}{\href{http://domussapiens.ru/nashi-obekty/kommercheskie-obekty/moskva-siti}{Project Link}}{\item{Maintainer}}\detaileditem{Implemented at the company L-Cube LLC in order to optimize the performance of the departmental network}{2015}{L-Cube}{\href{https://l-cube.ru/}{Company WebPage}}{\item{Author and Maintainer}}\detaileditem{Certificates from EMC2 Data-Center about Value of Research and Possibility of Implementation the Model}{2016}{EMC-DELL}{\href{https://k-farruh.github.io/files/projects/emc_dell/emc_dell.png}{Implementation Certificate}}{\item{Author and Maintainer}}\detaileditem{Intelligent rail system transportation summit. As one of the members of the Organizing Committee of the intelligent rail system transportation summit, the organization participated in the summit and attended the meeting.}{2009}{IntellektTrans}{\href{https://intelligenttransportconference.com}{Conference WebPage}}{\item{Volunteer}}}
+
+\hypertarget{ux6210ux5c31}{%
+\section{成就}\label{ux6210ux5c31}}
+
+\briefsection{\briefitem{Big Data 101}{2017}{Big Data University}\briefitem{Data Mining}{2016}{Intuit National Open University}\briefitem{Certificate of knowledge of technology AMX I - II level}{2013}{Smart City and IoT}\briefitem{Certificate of knowledge of ABB technology I-III}{2013}{Smart City and IoT}\briefitem{Certificate knowledge of technology Crestron I - II level}{2013}{Smart City and IoT}\briefitem{Data Science - effective use of data}{2012}{DELL-EMC}\briefitem{ISM - administration of information and data storage}{2012}{DELL-EMC}\briefitem{The C Programming Language}{2012}{Intuit National Open University}\briefitem{Certificate of passing the course Fundamentals of IBM z Series}{2007}{IBM}}
+
+\end{document}

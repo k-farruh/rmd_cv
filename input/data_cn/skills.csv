@@ -1,0 +1,7 @@
+area,skills
+通讯,演示（技术和非技术），仪表板设计，数据分析报告，科学出版物，数据可视化
+编程/标记语言,"Python, R, SQL/NoSQL, Hive, Spark, C/C++, Matlab, BASH, CSS, HTML, LaTeX, Markdown, RMarkdown"
+软件开发,"Docker, Git, 版本控制，自动化测试，持续集成"
+数值方法,优化（随机，遗传，多起点），微分方程的数值解
+统计,机器学习，数据分析，广义线性回归，聚类分析，因子分析，主成分分析（PCA），交叉验证，广义加性模型，数据分析，蒙特卡洛模拟
+环境环境,"Linux, Jupyter-Notebook, PyTorch, RStudio, ETL, SQL Server Management Studio, Azure Data Studio, VIM, Visual Studio"
