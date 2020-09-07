@@ -11,6 +11,8 @@ github: mariecurie
 linkedin: mariecurie
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
+header-includes:
+  - \usepackage{xeCJK}
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
-# 数据科学技能
+# 学术
 
  * 数据科学技能
  * 数据科学技能

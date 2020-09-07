@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.8.16)  7 SEP 2020 20:34
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.7)  7 SEP 2020 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **CV_CN_Researcher_Kushnazarov.tex
 (./CV_CN_Researcher_Kushnazarov.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-08-07> (./awesome-cv.cls
+L3 programming layer <2020-09-03> (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -101,7 +101,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 225.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -132,16 +132,16 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 )) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count180
 ) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/farr
 uh/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/farruh/.Ti
 nyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-08-07 L3 programming layer (loader) 
-(/home/farruh/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
-File: l3backend-xdvipdfmx.def 2020-08-07 L3 backend support: xdvipdfmx
+Package: expl3 2020-09-03 L3 programming layer (loader) 
+(/home/farruh/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2020-09-01 L3 backend support: XeTeX
 \g__graphics_track_int=\count181
 \l__pdf_internal_box=\box48
 \g__pdf_backend_object_int=\count182
@@ -730,73 +730,146 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count320
 \@lastruleclass=\count321
 \@thisrulewidth=\dimen284
-) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+) (/home/farruh/.TinyTeX/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2020/08/23 v3.8.5 Typesetting CJK scripts with XeLaTeX
+(/home/farruh/.TinyTeX/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2020-05-15 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen285
+\l__xtemplate_tmp_int=\count322
+\l__xtemplate_tmp_muskip=\muskip19
+\l__xtemplate_tmp_skip=\skip82
+)
+\l__xeCJK_tmp_int=\count323
+\l__xeCJK_tmp_box=\box72
+\l__xeCJK_tmp_dim=\dimen286
+\l__xeCJK_tmp_skip=\skip83
+(/home/farruh/.TinyTeX/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2020/08/23 v2.5.4 Document and package hooks (CTEX)
+)
+\g__xeCJK_space_factor_int=\count324
+\l__xeCJK_begin_int=\count325
+\l__xeCJK_end_int=\count326
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+\l__xeCJK_last_skip=\skip84
+\g__xeCJK_node_int=\count327
+\c__xeCJK_CJK_node_dim=\dimen287
+\c__xeCJK_CJK-space_node_dim=\dimen288
+\c__xeCJK_default_node_dim=\dimen289
+\c__xeCJK_default-space_node_dim=\dimen290
+\c__xeCJK_CJK-widow_node_dim=\dimen291
+\c__xeCJK_normalspace_node_dim=\dimen292
+\l__xeCJK_ccglue_skip=\skip85
+\l__xeCJK_ecglue_skip=\skip86
+\l__xeCJK_punct_kern_skip=\skip87
+\l__xeCJK_last_penalty_int=\count328
+\l__xeCJK_last_bound_dim=\dimen293
+\l__xeCJK_last_kern_dim=\dimen294
+\l__xeCJK_widow_penalty_int=\count329
+
+Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
+(xtemplate)             argument(s) on line 2335.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen295
+\l__xeCJK_mixed_punct_width_dim=\dimen296
+\l__xeCJK_middle_punct_width_dim=\dimen297
+\l__xeCJK_fixed_margin_width_dim=\dimen298
+\l__xeCJK_mixed_margin_width_dim=\dimen299
+\l__xeCJK_middle_margin_width_dim=\dimen300
+\l__xeCJK_bound_punct_width_dim=\dimen301
+\l__xeCJK_bound_margin_width_dim=\dimen302
+\l__xeCJK_margin_minimum_dim=\dimen303
+\l__xeCJK_kerning_total_width_dim=\dimen304
+\l__xeCJK_same_align_margin_dim=\dimen305
+\l__xeCJK_different_align_margin_dim=\dimen306
+\l__xeCJK_kerning_margin_width_dim=\dimen307
+\l__xeCJK_kerning_margin_minimum_dim=\dimen308
+\l__xeCJK_bound_dim=\dimen309
+\l__xeCJK_reverse_bound_dim=\dimen310
+\l__xeCJK_margin_dim=\dimen311
+\l__xeCJK_minimum_bound_dim=\dimen312
+\l__xeCJK_kerning_margin_dim=\dimen313
+\g__xeCJK_family_int=\count330
+\l__xeCJK_fam_int=\count331
+\g__xeCJK_fam_allocation_int=\count332
+\l__xeCJK_verb_case_int=\count333
+\l__xeCJK_verb_exspace_skip=\skip88
+(/home/farruh/.TinyTeX/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2020/08/23 v3.8.5 Configuration file for xeCJK package
+)) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count322
+\lrq@indent=\count334
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count323
-\c@listtotal=\count324
-\c@listcount=\count325
-\c@liststart=\count326
-\c@liststop=\count327
-\c@citecount=\count328
-\c@citetotal=\count329
-\c@multicitecount=\count330
-\c@multicitetotal=\count331
-\c@instcount=\count332
-\c@maxnames=\count333
-\c@minnames=\count334
-\c@maxitems=\count335
-\c@minitems=\count336
-\c@citecounter=\count337
-\c@maxcitecounter=\count338
-\c@savedcitecounter=\count339
-\c@uniquelist=\count340
-\c@uniquename=\count341
-\c@refsection=\count342
-\c@refsegment=\count343
-\c@maxextratitle=\count344
-\c@maxextratitleyear=\count345
-\c@maxextraname=\count346
-\c@maxextradate=\count347
-\c@maxextraalpha=\count348
-\c@abbrvpenalty=\count349
-\c@highnamepenalty=\count350
-\c@lownamepenalty=\count351
-\c@maxparens=\count352
-\c@parenlevel=\count353
-\blx@tempcnta=\count354
-\blx@tempcntb=\count355
-\blx@tempcntc=\count356
-\blx@maxsection=\count357
-\blx@maxsegment@0=\count358
-\blx@notetype=\count359
-\blx@parenlevel@text=\count360
-\blx@parenlevel@foot=\count361
-\blx@sectionciteorder@0=\count362
-\blx@entrysetcounter=\count363
-\labelnumberwidth=\skip82
-\labelalphawidth=\skip83
-\biblabelsep=\skip84
-\bibitemsep=\skip85
-\bibnamesep=\skip86
-\bibinitsep=\skip87
-\bibparsep=\skip88
-\bibhang=\skip89
+\c@tabx@nest=\count335
+\c@listtotal=\count336
+\c@listcount=\count337
+\c@liststart=\count338
+\c@liststop=\count339
+\c@citecount=\count340
+\c@citetotal=\count341
+\c@multicitecount=\count342
+\c@multicitetotal=\count343
+\c@instcount=\count344
+\c@maxnames=\count345
+\c@minnames=\count346
+\c@maxitems=\count347
+\c@minitems=\count348
+\c@citecounter=\count349
+\c@maxcitecounter=\count350
+\c@savedcitecounter=\count351
+\c@uniquelist=\count352
+\c@uniquename=\count353
+\c@refsection=\count354
+\c@refsegment=\count355
+\c@maxextratitle=\count356
+\c@maxextratitleyear=\count357
+\c@maxextraname=\count358
+\c@maxextradate=\count359
+\c@maxextraalpha=\count360
+\c@abbrvpenalty=\count361
+\c@highnamepenalty=\count362
+\c@lownamepenalty=\count363
+\c@maxparens=\count364
+\c@parenlevel=\count365
+\blx@tempcnta=\count366
+\blx@tempcntb=\count367
+\blx@tempcntc=\count368
+\blx@maxsection=\count369
+\blx@maxsegment@0=\count370
+\blx@notetype=\count371
+\blx@parenlevel@text=\count372
+\blx@parenlevel@foot=\count373
+\blx@sectionciteorder@0=\count374
+\blx@entrysetcounter=\count375
+\blx@biblioinstance=\count376
+\labelnumberwidth=\skip89
+\labelalphawidth=\skip90
+\biblabelsep=\skip91
+\bibitemsep=\skip92
+\bibnamesep=\skip93
+\bibinitsep=\skip94
+\bibparsep=\skip95
+\bibhang=\skip96
 \blx@bcfin=\read4
 \blx@bcfout=\write6
 \blx@langwohyphens=\language3
-\c@mincomprange=\count364
-\c@maxcomprange=\count365
-\c@mincompwidth=\count366
+\c@mincomprange=\count377
+\c@maxcomprange=\count378
+\c@mincompwidth=\count379
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex citestyle data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
@@ -804,140 +877,150 @@ Package biblatex Info: Trying to load biblatex bibstyle data model...
 Package biblatex Info: ... file 'authoryear-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count367
-\c@savedafterword=\count368
-\c@annotator=\count369
-\c@savedannotator=\count370
-\c@author=\count371
-\c@savedauthor=\count372
-\c@bookauthor=\count373
-\c@savedbookauthor=\count374
-\c@commentator=\count375
-\c@savedcommentator=\count376
-\c@editor=\count377
-\c@savededitor=\count378
-\c@editora=\count379
-\c@savededitora=\count380
-\c@editorb=\count381
-\c@savededitorb=\count382
-\c@editorc=\count383
-\c@savededitorc=\count384
-\c@foreword=\count385
-\c@savedforeword=\count386
-\c@holder=\count387
-\c@savedholder=\count388
-\c@introduction=\count389
-\c@savedintroduction=\count390
-\c@namea=\count391
-\c@savednamea=\count392
-\c@nameb=\count393
-\c@savednameb=\count394
-\c@namec=\count395
-\c@savednamec=\count396
-\c@translator=\count397
-\c@savedtranslator=\count398
-\c@shortauthor=\count399
-\c@savedshortauthor=\count400
-\c@shorteditor=\count401
-\c@savedshorteditor=\count402
-\c@labelname=\count403
-\c@savedlabelname=\count404
-\c@institution=\count405
-\c@savedinstitution=\count406
-\c@lista=\count407
-\c@savedlista=\count408
-\c@listb=\count409
-\c@savedlistb=\count410
-\c@listc=\count411
-\c@savedlistc=\count412
-\c@listd=\count413
-\c@savedlistd=\count414
-\c@liste=\count415
-\c@savedliste=\count416
-\c@listf=\count417
-\c@savedlistf=\count418
-\c@location=\count419
-\c@savedlocation=\count420
-\c@organization=\count421
-\c@savedorganization=\count422
-\c@origlocation=\count423
-\c@savedoriglocation=\count424
-\c@origpublisher=\count425
-\c@savedorigpublisher=\count426
-\c@publisher=\count427
-\c@savedpublisher=\count428
-\c@language=\count429
-\c@savedlanguage=\count430
-\c@origlanguage=\count431
-\c@savedoriglanguage=\count432
-\c@pageref=\count433
-\c@savedpageref=\count434
-\shorthandwidth=\skip90
-\shortjournalwidth=\skip91
-\shortserieswidth=\skip92
-\shorttitlewidth=\skip93
-\shortauthorwidth=\skip94
-\shorteditorwidth=\skip95
-\locallabelnumberwidth=\skip96
-\locallabelalphawidth=\skip97
-\localshorthandwidth=\skip98
-\localshortjournalwidth=\skip99
-\localshortserieswidth=\skip100
-\localshorttitlewidth=\skip101
-\localshortauthorwidth=\skip102
-\localshorteditorwidth=\skip103
+\c@afterword=\count380
+\c@savedafterword=\count381
+\c@annotator=\count382
+\c@savedannotator=\count383
+\c@author=\count384
+\c@savedauthor=\count385
+\c@bookauthor=\count386
+\c@savedbookauthor=\count387
+\c@commentator=\count388
+\c@savedcommentator=\count389
+\c@editor=\count390
+\c@savededitor=\count391
+\c@editora=\count392
+\c@savededitora=\count393
+\c@editorb=\count394
+\c@savededitorb=\count395
+\c@editorc=\count396
+\c@savededitorc=\count397
+\c@foreword=\count398
+\c@savedforeword=\count399
+\c@holder=\count400
+\c@savedholder=\count401
+\c@introduction=\count402
+\c@savedintroduction=\count403
+\c@namea=\count404
+\c@savednamea=\count405
+\c@nameb=\count406
+\c@savednameb=\count407
+\c@namec=\count408
+\c@savednamec=\count409
+\c@translator=\count410
+\c@savedtranslator=\count411
+\c@shortauthor=\count412
+\c@savedshortauthor=\count413
+\c@shorteditor=\count414
+\c@savedshorteditor=\count415
+\c@labelname=\count416
+\c@savedlabelname=\count417
+\c@institution=\count418
+\c@savedinstitution=\count419
+\c@lista=\count420
+\c@savedlista=\count421
+\c@listb=\count422
+\c@savedlistb=\count423
+\c@listc=\count424
+\c@savedlistc=\count425
+\c@listd=\count426
+\c@savedlistd=\count427
+\c@liste=\count428
+\c@savedliste=\count429
+\c@listf=\count430
+\c@savedlistf=\count431
+\c@location=\count432
+\c@savedlocation=\count433
+\c@organization=\count434
+\c@savedorganization=\count435
+\c@origlocation=\count436
+\c@savedoriglocation=\count437
+\c@origpublisher=\count438
+\c@savedorigpublisher=\count439
+\c@publisher=\count440
+\c@savedpublisher=\count441
+\c@language=\count442
+\c@savedlanguage=\count443
+\c@origlanguage=\count444
+\c@savedoriglanguage=\count445
+\c@pageref=\count446
+\c@savedpageref=\count447
+\shorthandwidth=\skip97
+\shortjournalwidth=\skip98
+\shortserieswidth=\skip99
+\shorttitlewidth=\skip100
+\shortauthorwidth=\skip101
+\shorteditorwidth=\skip102
+\locallabelnumberwidth=\skip103
+\locallabelalphawidth=\skip104
+\localshorthandwidth=\skip105
+\localshortjournalwidth=\skip106
+\localshortserieswidth=\skip107
+\localshorttitlewidth=\skip108
+\localshortauthorwidth=\skip109
+\localshorteditorwidth=\skip110
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+)
+Package biblatex Info: expl3
+(biblatex)             2020-09-03 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+Package biblatex Info: Trying to load expl3 case changing code...
+Package biblatex Info: ... file 'blx-case-expl3.def' found.
+(/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/blx-case-expl3.def
+File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count435
-\c@textcitetotal=\count436
-\c@textcitemaxnames=\count437
-\c@biburlbigbreakpenalty=\count438
-\c@biburlbreakpenalty=\count439
-\c@biburlnumpenalty=\count440
-\c@biburlucpenalty=\count441
-\c@biburllcpenalty=\count442
-\biburlbigskip=\muskip19
-\biburlnumskip=\muskip20
-\biburlucskip=\muskip21
-\biburllcskip=\muskip22
-\c@smartand=\count443
+File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+\c@textcitecount=\count448
+\c@textcitetotal=\count449
+\c@textcitemaxnames=\count450
+\c@biburlbigbreakpenalty=\count451
+\c@biburlbreakpenalty=\count452
+\c@biburlnumpenalty=\count453
+\c@biburlucpenalty=\count454
+\c@biburllcpenalty=\count455
+\biburlbigskip=\muskip20
+\biburlnumskip=\muskip21
+\biburlucskip=\muskip22
+\biburllcskip=\muskip23
+\c@smartand=\count456
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/blx-natbib.def
-File: blx-natbib.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+File: blx-natbib.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear-comp'...
 Package biblatex Info: ... file 'authoryear-comp.bbx' found.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/bbx/authoryear-comp.bbx
-File: authoryear-comp.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+File: authoryear-comp.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-File: authoryear.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+File: authoryear.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count444
-\c@bbx:relatedtotal=\count445
+File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count457
+\c@bbx:relatedtotal=\count458
 )))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
-File: authoryear.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+File: authoryear.cbx 2020/08/23 v3.15a biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -953,10 +1036,14 @@ File: biblatex.cfg
 )) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 )
-\c@papers=\count446
-\@quotelevel=\count447
-\@quotereset=\count448
-No file CV_CN_Researcher_Kushnazarov.aux.
+\c@papers=\count459
+
+Package xeCJK Warning: Fandol is being set as the default font for CJK text.
+(xeCJK)                Please make sure it has been properly installed.
+
+\@quotelevel=\count460
+\@quotereset=\count461
+(./CV_CN_Researcher_Kushnazarov.aux)
 \openout1 = `CV_CN_Researcher_Kushnazarov.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
@@ -1061,7 +1148,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
 t line 156.
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box72
+\AtBeginShipoutBox=\box73
 Package hyperref Info: Link coloring OFF on input line 156.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1071,21 +1158,19 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/home/farruh/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count449
+\c@section@level=\count462
 )
 LaTeX Info: Redefining \ref on input line 156.
 LaTeX Info: Redefining \pageref on input line 156.
 LaTeX Info: Redefining \nameref on input line 156.
+(./CV_CN_Researcher_Kushnazarov.out) (./CV_CN_Researcher_Kushnazarov.out)
 \@outlinefile=\write7
 \openout7 = `CV_CN_Researcher_Kushnazarov.out'.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
 )
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -1094,15 +1179,15 @@ Package biblatex Info: Data encoding 'utf8' specified.
 \openout6 = `CV_CN_Researcher_Kushnazarov.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'CV_CN_Researcher_Kushnazarov.bbl' not found.
-No file CV_CN_Researcher_Kushnazarov.bbl.
+Package biblatex Info: ... file 'CV_CN_Researcher_Kushnazarov.bbl' found.
+(./CV_CN_Researcher_Kushnazarov.bbl
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 52.
+)
 Package biblatex Info: Reference section=0 on input line 156.
 Package biblatex Info: Reference segment=0 on input line 156.
-\headertextwidth=\skip104
-\headerphotowidth=\skip105
-\photodim=\skip106
-File: ./../input/img/cropped.jpg Graphic file (type bmp)
-<./../input/img/cropped.jpg>
+\headertextwidth=\skip111
+\headerphotowidth=\skip112
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 10.95116pt on input line 161.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -1115,38 +1200,20 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.66417pt on input line 161.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.47441pt on input line 161.
-Missing character: There is no 法 in font [fonts/Roboto-Thin]/OT:script=DFLT;lan
-guage=dflt;!
-Missing character: There is no 如 in font [fonts/Roboto-Thin]/OT:script=DFLT;lan
-guage=dflt;!
-Missing character: There is no 赫 in font [fonts/Roboto-Thin]/OT:script=DFLT;lan
-guage=dflt;!
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 7.6pt on input line 161.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 7.6pt on input line 161.
-Missing character: There is no 资 in font [SourceSansPro-Regular.otf]/OT:script=
-latn;language=dflt;+smcp;mapping=tex-text;!
-Missing character: There is no 深 in font [SourceSansPro-Regular.otf]/OT:script=
-latn;language=dflt;+smcp;mapping=tex-text;!
-Missing character: There is no 数 in font [SourceSansPro-Regular.otf]/OT:script=
-latn;language=dflt;+smcp;mapping=tex-text;!
-Missing character: There is no 据 in font [SourceSansPro-Regular.otf]/OT:script=
-latn;language=dflt;+smcp;mapping=tex-text;!
-Missing character: There is no 科 in font [SourceSansPro-Regular.otf]/OT:script=
-latn;language=dflt;+smcp;mapping=tex-text;!
-Missing character: There is no 学 in font [SourceSansPro-Regular.otf]/OT:script=
-latn;language=dflt;+smcp;mapping=tex-text;!
-Missing character: There is no 家 in font [SourceSansPro-Regular.otf]/OT:script=
-latn;language=dflt;+smcp;mapping=tex-text;!
-Missing character: There is no 中 in font [fonts/Roboto-Italic]/OT:script=DFLT;l
-anguage=dflt;!
-Missing character: There is no 国 in font [fonts/Roboto-Italic]/OT:script=DFLT;l
-anguage=dflt;!
-Missing character: There is no 上 in font [fonts/Roboto-Italic]/OT:script=DFLT;l
-anguage=dflt;!
-Missing character: There is no 海 in font [fonts/Roboto-Italic]/OT:script=DFLT;l
-anguage=dflt;!
+
+LaTeX Font Warning: Font shape `TU/FandolHei-Regular(0)/m/sc' undefined
+(Font)              using `TU/FandolHei-Regular(0)/m/n' instead on input line 1
+61.
+
+
+LaTeX Font Warning: Font shape `TU/FandolHei-Regular(0)/m/it' undefined
+(Font)              using `TU/FandolHei-Regular(0)/m/n' instead on input line 1
+61.
+
 LaTeX Font Info:    Calculating math sizes for size <6.8> on input line 161.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 6.80072pt on input line 161.
@@ -1168,382 +1235,8 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 161.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
 (Font)              scaled to size 9.0pt on input line 161.
-Missing character: There is no 我 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 最 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 喜 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 欢 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 的 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 学 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 科 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 是 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 数 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 学 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 和 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 通 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 信 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 网 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 络 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 系 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 统 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 。 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 因 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 此 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 涉 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 及 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 到 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 通 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 信 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 网 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 络 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 系 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 统 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 。 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 作 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 为 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 研 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 究 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 人 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 员 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 我 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 不 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 仅 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 在 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 理 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 论 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 方 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 面 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 进 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 行 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 了 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 考 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 虑 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 而 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 且 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 还 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 与 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 多 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 家 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 公 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 司 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 合 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 作 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 进 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 行 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 应 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 用 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 。 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 此 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 外 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 每 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 个 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 结 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 果 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 都 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 为 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 在 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 数 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 据 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 中 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 心 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 智 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 能 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 城 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 市 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 和 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 其 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 他 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 项 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 目 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 上 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 的 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 实 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 施 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 提 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 供 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 了 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 。 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 在 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 俄 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 罗 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 斯 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 尤 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 其 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 是 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 圣 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 彼 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 得 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 堡 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 研 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 究 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 人 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 员 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 我 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 的 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 论 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 文 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 在 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 其 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 他 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 研 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 究 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 人 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 员 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 的 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 数 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 十 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 次 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 会 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 议 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 中 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 经 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 常 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 被 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 引 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 用 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 和 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 讨 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 论 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 。 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 每 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 年 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 我 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 都 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 会 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 在 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 国 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 际 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 会 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 议 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 上 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 发 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 表 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 有 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 关 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 人 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 工 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 智 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 能 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 和 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 通 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 信 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 网 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 络 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 领 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 域 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 的 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 科 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 学 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 文 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 章 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 包 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 括 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 等 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 全 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 球 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 学 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 术 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 平 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 台 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 。 in font [SourceSansPro-RegularIt.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 161--161
+Overfull \hbox (1.46pt too wide) in paragraph at lines 161--161
 []$[]$ $[]$$[]$ 
  []
 
@@ -1551,18 +1244,98 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 179.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 179.
-! Argument of \@sectioncolor has an extra }.
-<inserted text> 
-                \par 
-l.179 \section{经验}\label{ux7ecfux9a8c}}
-                                        
-Here is how much of TeX's memory you used:
- 38979 strings out of 481691
- 769309 string characters out of 5933311
- 1578360 words of memory out of 5000000
- 55492 multiletter control sequences out of 15000+600000
- 539356 words of font info for 108 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 67i,8n,112p,819b,866s stack positions out of 5000i,500n,10000p,200000b,80000s
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 181.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 181.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 181.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
+able
+(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
+t line 181.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 181.
 
-No pages of output.
+LaTeX Font Warning: Font shape `TU/FandolHei-Regular(0)/m/sl' undefined
+(Font)              using `TU/FandolHei-Regular(0)/m/n' instead on input line 1
+81.
+
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 181.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 181.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 181.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
+able
+(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
+t line 181.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 181.
+
+LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/m/sc' undefined
+(Font)              using `TU/FandolSong-Regular(0)/m/n' instead on input line 
+186.
+
+[1
+
+]
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 211.
+
+Overfull \hbox (4.83578pt too wide) in paragraph at lines 211--211
+[][] [][][]\TU/SourceSansPro(1)/m/n/10 Кушназаров, ФИ and ВГ Бабина (2018). НАП
+РАВЛЕНИЯ РАЗВИТИЯ КОРПОРАТИВНОЙ ИНФОРМАЦИОННОЙ СИСТЕМЫ
+ []
+
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 211.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 211.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 211.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 211.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 211.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 211.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 211.
+
+Overfull \hbox (20.38942pt too wide) in paragraph at lines 211--211
+[][] [][][]\TU/SourceSansPro(1)/m/n/10 Кушназаров, ФИ, ВВ Яковлев, and ОА Турди
+ев (2015). Сравнение производительности протоколов доступа к облачным
+ []
+
+[2]
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 235.
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+(./CV_CN_Researcher_Kushnazarov.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package rerunfilecheck Info: File `CV_CN_Researcher_Kushnazarov.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package logreq Info: Writing requests to 'CV_CN_Researcher_Kushnazarov.run.xml'
+.
+\openout1 = `CV_CN_Researcher_Kushnazarov.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 41217 strings out of 481678
+ 844002 string characters out of 5932934
+ 1692514 words of memory out of 5000000
+ 57670 multiletter control sequences out of 15000+600000
+ 540189 words of font info for 148 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 67i,11n,112p,1704b,5095s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on CV_CN_Researcher_Kushnazarov.pdf (3 pages).

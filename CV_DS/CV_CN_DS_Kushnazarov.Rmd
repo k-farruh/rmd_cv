@@ -4,21 +4,20 @@ surname: Kushnazarov
 position: "资深数据科学家"
 address: "中国/上海"
 profilepic: "./../input/img/cropped.jpg"
-phone: "+86 173 2116 0407"
+phone: +86 173 2116 0407
+www: k-farruh.github.io
 email: "k.farruh@bk.ru"
-www: "k-farruh.github.io"
 github: k-farruh
 linkedin: k-farruh
-# orcid: 0000-0003-0347-6234
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
 aboutme: "具有4年以上执行数据驱动型解决方案以提高效率和准确性的经验的数据科学家。 我对软件，数据库和数据科学有着浓厚的热情。"
-docname: CV
+docname: CV 
 output: vitae::awesomecv
-header-incudes:
-  - \usepackage{CJK}
-  - \usepackage{ctex}
+header-includes:
+  - \usepackage{xeCJK}
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE,
@@ -34,7 +33,6 @@ if (!require(here)) {install.packages("here")}
 ```
 
 ```{r loadData}
-Sys.setlocale("LC_CTYPE","cn_CN")
 source(file = here("src", "sc01_data_cn.R"), encoding="UTF-8")
 folder_path = "../input/data_cn"
 
@@ -54,7 +52,7 @@ df_projects <- read_csv(file.path(folder_path, "projects.csv"))
 df_skills <- read_csv(file.path(folder_path, "skills.csv"))
 ```
 
-# a经验
+# 经验a
 ```{r experience}
 df_experience %>% 
   filter(unit != 'Tashkent Railway Engineering Institute') %>% 
@@ -71,7 +69,7 @@ df_experience %>%
 
 <!-- \pagebreak -->
 
-# a学术
+# 学术a
 ```{r education}
 # Merge joint PhD entries
 df_education %>%
@@ -85,7 +83,7 @@ df_education %>%
   )
 ```
 
-# a数据科学技能
+# 数据科学技能
 ```{r skills}
 df_skills %>%
   detailed_entries(
@@ -94,7 +92,7 @@ df_skills %>%
   )
 ```
 
-# a选择出版物
+# 选择出版物
 ```{r selectPubs}
 selected_publications = c("farruhbook2017", "farruhpatent2015", "Farruh2018Apr", "Farruh2019DataSC", "Farruh2017AnalysisOP")
 bibliography_entries("../input/publications.bib") %>%
@@ -102,7 +100,7 @@ bibliography_entries("../input/publications.bib") %>%
   arrange(desc(year), author)
 ```
 
-# a专案
+# 专案a
 ```{r projects}
 df_projects %>%
   filter(area == 'Speech Accent Detection') %>% 
@@ -116,7 +114,7 @@ df_projects %>%
   )
 ```
 
-# a成就
+# 成就a
 ```{r accomplishments}
 df_accomplishments %>%
   arrange(desc(year)) %>% 
