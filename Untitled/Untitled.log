@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.7)  7 SEP 2020 21:33
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.7)  7 SEP 2020 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -807,7 +807,7 @@ File: xeCJK.cfg 2020/08/23 v3.8.5 Configuration file for xeCJK package
 Package xeCJK Warning: Fandol is being set as the default font for CJK text.
 (xeCJK)                Please make sure it has been properly installed.
 
-No file Untitled.aux.
+(./Untitled.aux)
 \openout1 = `Untitled.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -926,11 +926,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 99.
 LaTeX Info: Redefining \pageref on input line 99.
 LaTeX Info: Redefining \nameref on input line 99.
+(./Untitled.out) (./Untitled.out)
 \@outlinefile=\write6
 \openout6 = `Untitled.out'.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \headertextwidth=\skip89
 \headerphotowidth=\skip90
@@ -979,21 +977,39 @@ Overfull \hbox (1.46pt too wide) in paragraph at lines 104--104
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 122.
+(Font)              scaled to size 16.0pt on input line 124.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 122.
-! Argument of \@sectioncolor has an extra }.
-<inserted text> 
-                \par 
-l.122 \section{学术}\label{ux5b66ux672f}}
-                                        
-Here is how much of TeX's memory you used:
- 33767 strings out of 481678
- 678221 string characters out of 5932934
- 1105629 words of memory out of 5000000
- 50323 multiletter control sequences out of 15000+600000
- 539452 words of font info for 120 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 67i,5n,112p,799b,729s stack positions out of 5000i,500n,10000p,200000b,80000s
+(Font)              scaled to size 16.0pt on input line 124.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 136.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 136.
 
-No pages of output.
+LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/m/sc' undefined
+(Font)              using `TU/FandolSong-Regular(0)/m/n' instead on input line 
+136.
+
+[1
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+(./Untitled.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package rerunfilecheck Info: File `Untitled.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 33804 strings out of 481678
+ 679757 string characters out of 5932934
+ 1107767 words of memory out of 5000000
+ 50346 multiletter control sequences out of 15000+600000
+ 539492 words of font info for 125 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 67i,11n,112p,799b,729s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Untitled.pdf (1 page).
