@@ -20,7 +20,7 @@ if (!file.exists(file_path_projects)) {
     df_projects <- tribble(
         ~area, ~accomplishment, ~year, ~where, ~detail,
         "Speech Accent Detection", "Everyone who speaks a language, speaks it with an accent. This project define accent for english language speakers", 2020, "\\href{https://github.com/k-farruh/speech-accent-detection}{Project Link}", "Author and Maintainer"
-        , "Moscow City", "Moscow City Project, which is made by 5 different office building groups with different requirements to smart system and linking. Companies main job is to make computer programming of center control and night light adjustment. More then 800 square meters, with 15000 signals from different controllers.", 2015, "\\href{http://domussapiens.ru/nashi-obekty/kommercheskie-obekty/moskva-siti}{Project Link}", "Maintainer"
+        , "Moscow Smart Lighting Projects", "Moscow Smart Lighting Projects Project, which is made by 5 different office building groups with different requirements to smart system and linking. Companies main job is to make computer programming of center control and night light adjustment. More then 800 square meters, with 15000 signals from different controllers.", 2015, "\\href{http://domussapiens.ru/nashi-obekty/kommercheskie-obekty/moskva-siti}{Project Link}", "Maintainer"
         , "L-Cube", "Implemented at the company L-Cube LLC in order to optimize the performance of the departmental network", 2015, "\\href{https://l-cube.ru/}{Company WebPage}", "Author and Maintainer"
         , "EMC-DELL", "Certificates from EMC2 Data-Center about Value of Research and Possibility of Implementation the Model", 2016, "\\href{https://k-farruh.github.io/files/projects/emc_dell/emc_dell.png}{Implementation Certificate}", "Author and Maintainer"
         , "IntellektTrans", "Intelligent rail system transportation summit. As one of the members of the Organizing Committee of the intelligent rail system transportation summit, the organization participated in the summit and attended the meeting.", 2009, "\\href{https://intelligenttransportconference.com}{Conference WebPage}", "Volunteer"
@@ -80,37 +80,38 @@ if (!file.exists(file_path_education)) {
 
 ##### Experience #####
 file_path_experience = file.path(folder_path, "experience.csv")
-if (!file.exists(file_path_experience)) {
+if (file.exists(file_path_experience)) {
     df_experience <- tribble(
         ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
         # TutorABC
-        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "LANGUAGES USED --- Python, R, RMarkdown, SQL, Spark, Hive.",
-        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "Conduct classification analyses of the customer life cycle stage to increase overall turnover.",
-        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "Algorithmic optimizes ongoing ML/DL models and check the performance of implemented models.",
-        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "Established a Machine Learning model refund customers and update the refund model. Decreased refund overall refund rate to 27%.",
-        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "Implemented and retrained Mozilla DeepSpeech library for Automatic Speech Recognition.",
-        "Big Data & Data Scientist Manager", "iTutorGroup-Ping An", "September", 2016, "Present", NA, "Shanghai, China", "Created and tested the Speech Accent Classification system for native and non-native speakers, with recall 99%.",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An China", "September", 2016, "Till now", NA, "Shanghai, China", "Languages --- Python, R, RMarkdown, SQL, Spark and Hive.",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An China", "September", 2016, "Till now", NA, "Shanghai, China", "Conducted classification analyses of the customer life cycle stage to increase overall turnover.",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An China", "September", 2016, "Till now", NA, "Shanghai, China", "With algorithmic, optimized ongoing ML/DL models and checked the performance of implemented models.",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An China", "September", 2016, "Till now", NA, "Shanghai, China", "Established the Machine Learning model for refund customers and updated the refund model. Decreased overall refund rate to 27%.",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An China", "September", 2016, "Till now", NA, "Shanghai, China", "Implemented and retrained Mozilla DeepSpeech library for Automatic Speech Recognition.",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An China", "September", 2016, "Till now", NA, "Shanghai, China", "Created and tested the Speech Accent Classification System for native and non-native speakers, with recall metric 99%.",
         # PeriPlus AG
-        "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "LANGUAGES USED --- Python, R, RMarkdown, SQL",
-        "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Establish and manage the data scientist team. Construct computer vision projects. Bring to production AI/ML/DL projects.",
-        "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Created a data scientist team from scratch in three months. Trained candidates with a piece of good basic knowledge.",
-        "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Created a container number recognition system using object detection and character recognition models. Using an internal tool as part of a container tracking system.",
-        "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Internal face recognition system for customers.",
+        "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Languages --- Python, R, RMarkdown and SQL",
+        "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Implemented AI/ML/DL projects.",
+        "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "From scratch established the data scientist team in three months.",
+        "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Constructed a Container Number Recognition System using object detection and character recognition models.",
+        "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Built the Face Recognition System for customers.",
         # Haima
-        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "LANGUAGES USED --- C/C++, Python, Bash",
-        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "CANBus connect lidar, radar, decrease noises in raw data from them.",
-        # "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Model working logic two computers, one is the main computer, second is a backup computer.",
-        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Optimize joint work and logic compatibility of equipment.",
+        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Languages --- C/C++, Python and Bash",
+        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Connected lidar and radar to decrease noises in raw data.",
+        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Designed a model car to check the capability of algorithms on ultrasonic sensors.",
+        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Optimized CANBus protocol to increase the efficiency of data transfer.",
+        "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Optimized joint work and logic compatibility of equipments.",
         # Domus Sapiens
-        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "LANGUAGES USED --- C/C++, Assembler, Bash",
-        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "I worked alone on more than 20 large and small projects of intelligent systems. One of the most famous and complicated cases is the \"smart system development of Moscow city.\"",
-        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "The project \"Moscow city\" is composed of five high buildings with styles, different functions of the office buildings, and hotels for each building. Each floor's requirements were not the same, equivalent to a small smart city system. We successfully finished the project and for this project, Domus Sapiens got several rewards.",
-        "Senior Programmer, Data analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "Implemented the created and got a patent model to improve the quality of data transfer in the wireless network.",
+        "Senior Programmer, Data Analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "Languages --- C/C++, Assembler and Bash",
+        "Senior Programmer, Data Analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "Lead and managed more than 20 projects on intelligent systems. Some of the most famous and complicated cases are the Moscow Smart Lighting Projects.",
+        "Senior Programmer, Data Analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "Moscow Smart Lighting Projects were to do with five high buildings with various styles and functions, including office buildings and hotels. The requirements were not even similar from  floor to floor, which made the whole projects equivalent to a small smart city system. We successfully finished the projects and because of this, Domus Sapiens got several rewards.",
+        "Senior Programmer, Data Analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "Implemented and applied the patent model to improve the quality of data transfer in wireless networks.",
         # ProDVD
-        "Software Engineer", "ProDVD (Part-Time)", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "LANGUAGES USED --- C/C++",
-        "Software Engineer", "ProDVD (Part-Time)", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "ProDVD is a Korean/USA joint venture that was located in Tashkent. Mainly provides a service development and production program for mobile phones and TV and other electronic products.",
-        "Software Engineer", "ProDVD (Part-Time)", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "Developed the smart card king software for a mobile phone, which suitable for Android and iOS systems, making it convenient for business people to organize and store business cards.",
-        "Software Engineer", "ProDVD (Part-Time)", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "Developed the audio encoding/decoding part of the Blu Ray player. I also invented the word recognition software used in the library based on the iOS system.",
+        "Software Engineer", "ProDVD", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "Languages --- C/C++",
+        "Software Engineer", "ProDVD", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "Developed the Card King for mobile phones, compatible for both Android and iOS systems, making it convenient for business people to organize and store business cards.",
+        "Software Engineer", "ProDVD", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "Developed the audio encoding/decoding part for the Blu Ray player.", 
+        "Software Engineer", "ProDVD", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "Invented the word recognition software used in the library, both iOS and Android compatible",
         # Tashkent Railway Engineering Institute
         "Assistant of Professor", "Tashkent Railway Engineering Institute", "September", 2010, "July", 2012, "Tashkent, Uzbekistan", "To conduct laboratory and practical classes for below subjects:",
         "Assistant of Professor", "Tashkent Railway Engineering Institute", "September", 2010, "July", 2012, "Tashkent, Uzbekistan", "Programming in C/C++ languages;",
