@@ -55,8 +55,7 @@ df_skills <- read_csv(file.path(folder_path, "skills.csv"))
 # Experience
 ```{r experience}
 df_experience %>% 
-  filter(unit != 'Tashkent Railway Engineering Institute') %>% 
-  
+  filter(unit != 'Tashkent Railway Engineering Institute') %>%
   detailed_entries(
   with = title,
   what = unit,
@@ -71,7 +70,7 @@ df_experience %>%
 ```{r education}
 # Merge joint PhD entries
 df_education %>%
-  filter(startYear == 2012) %>%
+  # filter(startYear == 2012) %>%
   detailed_entries(
     with = inst,
     what = degree,
@@ -79,24 +78,6 @@ df_education %>%
     when = glue::glue("{startYear} --> {endYear}",.na = ""),
     where = where
   )
-```
-\pagebreak
-
-# Data Science Skills
-```{r skills}
-df_skills %>%
-  detailed_entries(
-    with = area,
-    what = skills
-  )
-```
-
-# Select Publications
-```{r selectPubs}
-selected_publications = c("farruhbook2017", "farruhpatent2015", "Farruh2018Apr", "Farruh2019DataSC", "Farruh2017AnalysisOP")
-bibliography_entries("../input/publications.bib") %>%
-  filter(key %in% selected_publications) %>%
-  arrange(desc(year), author)
 ```
 
 # Projects
@@ -113,9 +94,30 @@ df_projects %>%
   )
 ```
 
+<!-- \pagebreak -->
+
+# Data Science Skills
+```{r skills}
+df_skills %>%
+  filter(area != "Numerical Methods") %>% 
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+```
+
+# Select Publications
+```{r selectPubs}
+selected_publications = c("farruhpatent2015", "Farruh2018Apr", "Farruh2019DataSC", "Farruh2017AnalysisOP")
+bibliography_entries("../input/publications.bib") %>%
+  filter(key %in% selected_publications) %>%
+  arrange(desc(year), author)
+```
+
 # Accomplishments
 ```{r accomplishments}
 df_accomplishments %>%
+  filter(area != 'Smart City and IoT') %>% 
   arrange(desc(year)) %>% 
   brief_entries(
     when = year
