@@ -12,7 +12,7 @@ linkedin: k-farruh
 # orcid: 0000-0003-0347-6234
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
-aboutme: "Self-sufficient data scientist with 4+ years experiences in executing data-driven solutions to increase efficiency and accuracy. Always passionate for software, database, and data science."
+aboutme: "A self-sufficient data scientist with 4+ years experiences in executing data-driven solutions to increase efficiency and accuracy. Always passionate for software, database, and data science."
 docname: CV
 output: vitae::awesomecv
 editor_options: 
@@ -80,7 +80,7 @@ df_education %>%
   )
 ```
 
-# Projects
+# Selected Project
 ```{r projects}
 df_projects %>%
   filter(area == 'Speech Accent Detection') %>% 
@@ -106,9 +106,9 @@ df_skills %>%
   )
 ```
 
-# Select Publications
+# Selected Publications
 ```{r selectPubs}
-selected_publications = c("farruhpatent2015", "Farruh2018Apr", "Farruh2019DataSC", "Farruh2017AnalysisOP")
+selected_publications = c("farruhpatent2015", "Farruh2019DataSC", "kushnazarov2020consumer")
 bibliography_entries("../input/publications.bib") %>%
   filter(key %in% selected_publications) %>%
   arrange(desc(year), author)
