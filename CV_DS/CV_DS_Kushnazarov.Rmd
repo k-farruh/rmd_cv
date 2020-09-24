@@ -17,6 +17,8 @@ docname: CV
 output: vitae::awesomecv
 editor_options: 
   chunk_output_type: console
+header-includes:
+  - \usepackage{xeCJK}
 ---
 
 ```{r setup, include=FALSE}
@@ -33,7 +35,7 @@ if (!require(here)) {install.packages("here")}
 ```
 
 ```{r loadData}
-source(file = here("src", "sc01_data.R"))
+source(file = "../src/sc01_data.R")
 folder_path = "../input/data"
 
 # Education
@@ -80,10 +82,10 @@ df_education %>%
   )
 ```
 
-# Selected Project
+# Selected Projects
 ```{r projects}
 df_projects %>%
-  filter(area == 'Speech Accent Detection') %>% 
+  filter(year > 2018) %>%
   detailed_entries(
     with = area,
     what = accomplishment,
@@ -114,10 +116,11 @@ bibliography_entries("../input/publications.bib") %>%
   arrange(desc(year), author)
 ```
 
-# Accomplishments
+# Selected Accomplishments
 ```{r accomplishments}
 df_accomplishments %>%
-  filter(area != 'Smart City and IoT') %>% 
+  filter(detail == 'Data Analysis with Python' |
+         detail == 'Data Science - effective use of data') %>% 
   arrange(desc(year)) %>% 
   brief_entries(
     when = year

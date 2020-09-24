@@ -1,7 +1,7 @@
 area,skills
-Communication,"Presentations (technical and non-technical), dashboard design, data analysis reports, scientific publications, data visualization"
-Programming/Markup Languages,"Python, R, SQL/NoSQL, Hive, Spark, C/C++, Matlab, BASH, CSS, HTML, LaTeX, Markdown, RMarkdown"
-Software Development,"Docker, git, version control, automated testing, continuous integration"
-Numerical Methods,"optimization (stochastic, genetic, multi-start), numerical solution of differential equations"
-Statistics,"Machine learning, data analysis, generalized linear regression, cluster analysis, factor analysis, principal components analysis (PCA), cross validation, generalized additive models, data analytics, Monte Carlo simulation"
-Environments,"Linux, Jupyter-Notebook, PyTorch, RStudio, ETL, SQL Server Management Studio, Azure Data Studio, VIM, Visual Studio"
+Communication,"Presentations (technical and non-technical), dashboard design, data analysis reports, scientific publications and data visualization"
+Programming/Markup Languages,"Python, R, SQL/NoSQL, Hive, Spark, C/C++, Matlab, BASH, CSS, HTML, LaTeX, Markdown and RMarkdown"
+Software Development,"Docker, git, version control, automated testing and continuous integration"
+Numerical Methods,"optimization (stochastic, genetic, multi-start) and numerical solution of differential equations"
+Statistics,"Machine learning, data analysis, generalized linear regression, cluster analysis, factor analysis, principal components analysis (PCA), cross validation, generalized additive models, data analytics and Monte Carlo simulation"
+Environments,"Linux, Jupyter-Lab, PyTorch, RStudio, ETL, SQL Server Management Studio, Azure Data Studio, VIM and Visual Studio"
