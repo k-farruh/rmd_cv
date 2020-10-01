@@ -16,7 +16,7 @@ if (!require(tidyverse)) { install.packages("tidyverse")}
 ##### Projects #####
 folder_path = "../input/data"
 file_path_projects = file.path(folder_path, "projects.csv")
-if (file.exists(file_path_projects)) {
+if (!file.exists(file_path_projects)) {
     df_projects <- tribble(
         ~area, ~accomplishment, ~year, ~where, ~detail,
         "NLP: Speech Accent Detection", "Everyone who speaks a language, speaks it with an accent. This project defines accents for the english language speakers", 2020, "\\href{https://github.com/k-farruh/speech-accent-detection}{Project Link}", "Role: Author and Maintainer"
@@ -36,10 +36,11 @@ if (file.exists(file_path_projects)) {
 
 ##### Accomplishments #####
 file_path_accomplishments = file.path(folder_path, "accomplishments.csv")
-if (file.exists(file_path_accomplishments)) {
+if (!file.exists(file_path_accomplishments)) {
     df_accomplishments <- tribble(
         ~area, ~detail, ~year, ~where, ~accomplishment,
         "\\href{https://coursera.org/share/0bf6cab184657077fca8ef68546282d7}{IBM and Coursera}", "Data Analysis with Python", 2020, "Online", "IBM"
+        , "\\href{https://coursera.org/share/e17f5f15b464ce03e49816e5ed7a8e4d}{IBM and Coursera}", "Tools for Data Science", 2020, "Online", "IBM"
         , "\\href{https://www.coursera.org/account/accomplishments/certificate/REVKFDAVDB2S}{IBM and Coursera}", "What's Data Scientists", 2020, "Online", "IBM"
         , "DELL-EMC", "Data Science - effective use of data", 2012, "St Petersburg, Russia", "DELL-EMC-Academic Alliance"
         , "DELL-EMC", "ISM - administration of information and data storage", 2012, "St Petersburg, Russia", "DELL-EMC-Academic Alliance"

@@ -110,6 +110,7 @@ df_projects %>%
   )
 
 ```
+\newpage
 
 # Accomplishments
 ```{r accomplishments}
