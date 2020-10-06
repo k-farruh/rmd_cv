@@ -17,6 +17,8 @@ docname: CV
 output: vitae::awesomecv
 editor_options: 
   chunk_output_type: console
+header-includes:
+  - \usepackage{xeCJK}
 ---
 
 ```{r setup, include=FALSE}
