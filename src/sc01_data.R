@@ -40,6 +40,7 @@ if (!file.exists(file_path_accomplishments)) {
     df_accomplishments <- tribble(
         ~area, ~detail, ~year, ~where, ~accomplishment,
         "\\href{https://coursera.org/share/0bf6cab184657077fca8ef68546282d7}{IBM and Coursera}", "Data Analysis with Python", 2020, "Online", "IBM"
+        , "\\href{https://coursera.org/share/aa14fdabcf5378ea4c99a72993525546}{IBM and Coursera}", "Python for Data Science and AI", 2020, "Online", "IBM"
         , "\\href{https://coursera.org/share/4341233b19c0236a10152ce5004132d0}{IBM and Coursera}", "Data Science Methodology", 2020, "Online", "IBM"
         , "\\href{https://coursera.org/share/e17f5f15b464ce03e49816e5ed7a8e4d}{IBM and Coursera}", "Tools for Data Science", 2020, "Online", "IBM"
         , "\\href{https://www.coursera.org/account/accomplishments/certificate/REVKFDAVDB2S}{IBM and Coursera}", "What's Data Scientists", 2020, "Online", "IBM"
@@ -61,12 +62,12 @@ file_path_skills = file.path(folder_path, "skills.csv")
 if (!file.exists(file_path_skills)) {
     df_skills <- tribble(
         ~area, ~skills,
-        "Communication", "Presentations (technical and non-technical), dashboard design, data analysis reports, scientific publications and data visualization",
+        "Communication", "Communicate effectively with wide-range of audiences, presentations (technical and non-technical), dashboard design, data analysis reports, scientific publications and data visualization",
         "Programming/Markup Languages", "Python, R, SQL/NoSQL, Hive, Spark, C/C++, Matlab, BASH, CSS, HTML, LaTeX, Markdown and RMarkdown",
-        "Software Development", "Docker, git, version control, automated testing and continuous integration",
+        "Software Development", "Docker, git, version control, automated testing and continuous integration, A/B testing (Statistical Testing and Experiment Design)",
         "Numerical Methods", "optimization (stochastic, genetic, multi-start) and numerical solution of differential equations",
-        "Statistics", "Machine learning, data analysis, generalized linear regression, cluster analysis, factor analysis, principal components analysis (PCA), cross validation, generalized additive models, data analytics and Monte Carlo simulation",
-        "Environments", "Linux, Jupyter-Lab, PyTorch, RStudio, ETL, SQL Server Management Studio, Azure Data Studio, VIM and Visual Studio",
+        "Statistics", "Machine learning, data analysis, generalized linear regression, cluster analysis, factor analysis, principal components analysis (PCA), cross validation, generalized additive models, data analytics",
+        "Environments", "Linux, Jupyter-Lab, PyTorch, RStudio, ETL, SQL Server Management Studio, Azure Data Studio",
     )
     write_csv(df_skills, path = file_path_skills)
 }
