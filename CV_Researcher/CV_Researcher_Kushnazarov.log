@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.24)  4 OCT 2020 21:01
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.17)  16 OCT 2020 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,7 +280,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/SourceSansPro(1)/bx/n on input lin
 e 123.
 ) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2020/09/17 version 4.32 text color boxes
+Package: tcolorbox 2020/07/31 version 4.31 text color boxes
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/home/farru
 h/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/farruh/.TinyTeX
 /texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -546,7 +546,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@out=\write4
 \tcb@record@out=\write5
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '4.32'
+Library (tcolorbox): 'tcbskins.code.tex' version '4.31'
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/f
 arruh/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/farruh/.Tin
 yTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/farruh/.TinyTeX/texm
@@ -603,13 +603,13 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
 \tcb@waterbox=\box70
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.32'
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.31'
 ))) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
 (/home/farruh/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 (/home/farruh/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 ) (/home/farruh/.TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))) (/home/farruh/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -1323,10 +1323,10 @@ Package logreq Info: Writing requests to 'CV_Researcher_Kushnazarov.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41050 strings out of 481674
- 828599 string characters out of 5932826
- 1678922 words of memory out of 5000000
- 57508 multiletter control sequences out of 15000+600000
+ 41048 strings out of 481674
+ 828514 string characters out of 5932826
+ 1679076 words of memory out of 5000000
+ 57506 multiletter control sequences out of 15000+600000
  540149 words of font info for 143 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  67i,11n,112p,3640b,5095s stack positions out of 5000i,500n,10000p,200000b,80000s

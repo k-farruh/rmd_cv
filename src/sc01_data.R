@@ -13,10 +13,11 @@
 
 if (!require(tidyverse)) { install.packages("tidyverse")}
 
+is_write = TRUE
 ##### Projects #####
 folder_path = "../input/data"
 file_path_projects = file.path(folder_path, "projects.csv")
-if (!file.exists(file_path_projects)) {
+if (!file.exists(file_path_projects) | is_write) {
     df_projects <- tribble(
         ~area, ~accomplishment, ~year, ~where, ~detail,
         "NLP: Speech Accent Detection", "Everyone who speaks a language, speaks it with an accent. This project defines accents for the english language speakers", 2020, "\\href{https://github.com/k-farruh/speech-accent-detection}{Project Link}", "Role: Author and Maintainer"
@@ -36,7 +37,7 @@ if (!file.exists(file_path_projects)) {
 
 ##### Accomplishments #####
 file_path_accomplishments = file.path(folder_path, "accomplishments.csv")
-if (!file.exists(file_path_accomplishments)) {
+if (!file.exists(file_path_accomplishments) | is_write) {
     df_accomplishments <- tribble(
         ~area, ~detail, ~year, ~where, ~accomplishment,
         "\\href{https://coursera.org/share/0bf6cab184657077fca8ef68546282d7}{IBM and Coursera}", "Data Analysis with Python", 2020, "Online", "IBM"
@@ -59,7 +60,7 @@ if (!file.exists(file_path_accomplishments)) {
 
 ##### Skills #####
 file_path_skills = file.path(folder_path, "skills.csv")
-if (!file.exists(file_path_skills)) {
+if (!file.exists(file_path_skills) | is_write) {
     df_skills <- tribble(
         ~area, ~skills,
         "Communication", "Communicate effectively with wide-range of audiences, presentations (technical and non-technical), dashboard design, data analysis reports, scientific publications and data visualization",
@@ -74,7 +75,7 @@ if (!file.exists(file_path_skills)) {
 
 ##### Education #####
 file_path_education = file.path(folder_path, "education.csv")
-if (!file.exists(file_path_education)) {
+if (!file.exists(file_path_education) | is_write) {
     df_education <- tribble(
         ~inst,  ~startMonth, ~startYear, ~endMonth, ~endYear, ~degree, ~where, ~detail,
         "Emperor Alexander I St.Petersburg State Transport University", "September", 2012, "March", 2016, "Mathematical modeling, numerical methods and computer programs", "St Petersburg, Russia", "Doctor of Philosophy (Ph.D.)"
@@ -89,7 +90,7 @@ if (!file.exists(file_path_education)) {
 
 ##### Experience #####
 file_path_experience = file.path(folder_path, "experience.csv")
-if (!file.exists(file_path_experience)) {
+if (!file.exists(file_path_experience) | is_write) {
     df_experience <- tribble(
         ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
         # TutorABC
@@ -113,10 +114,10 @@ if (!file.exists(file_path_experience)) {
         "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Optimized CANBus protocol to increase the efficiency of data transfer",
         "Automatic Driving Prospective Technology Engineer", "Haima automatic Investment Group Co. Ltd, R&D Center", "April", 2016, "September", 2016, "Shanghai, China", "Optimized joint work and logic compatibility of equipments",
         # Domus Sapiens
-        "Senior Programmer, Data Analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "Languages --- C/C++, Assembler and Bash",
-        "Senior Programmer, Data Analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "Lead and managed more than 20 projects on intelligent systems. Some of the most famous and complicated cases are the Moscow Smart Lighting Projects",
-        "Senior Programmer, Data Analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "Moscow Smart Lighting Projects were to do with five high buildings with various styles and functions, including office buildings and hotels. The requirements were not even similar from  floor to floor, which made the whole projects equivalent to establish a small smart city system. We successfully finished the projects and because of this, Domus Sapiens got several rewards",
-        "Senior Programmer, Data Analyst", "Domus Sapiens", "January", 2011, "May", 2015, "St Petersburg, Russia", "Implemented and applied the patent model to improve the quality of data transfer in wireless networks",
+        "Senior Programmer, Data Analyst", "Domus Sapiens", "October", 2012, "May", 2015, "St Petersburg, Russia", "Languages --- C/C++, Assembler and Bash",
+        "Senior Programmer, Data Analyst", "Domus Sapiens", "October", 2012, "May", 2015, "St Petersburg, Russia", "Lead and managed more than 20 projects on intelligent systems. Some of the most famous and complicated cases are the Moscow Smart Lighting Projects",
+        "Senior Programmer, Data Analyst", "Domus Sapiens", "October", 2012, "May", 2015, "St Petersburg, Russia", "Moscow Smart Lighting Projects were to do with five high buildings with various styles and functions, including office buildings and hotels. The requirements were not even similar from  floor to floor, which made the whole projects equivalent to establish a small smart city system. We successfully finished the projects and because of this, Domus Sapiens got several rewards",
+        "Senior Programmer, Data Analyst", "Domus Sapiens", "October", 2012, "May", 2015, "St Petersburg, Russia", "Implemented and applied the patent model to improve the quality of data transfer in wireless networks",
         # ProDVD
         "Software Engineer", "ProDVD", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "Languages --- C/C++",
         "Software Engineer", "ProDVD", "October", 2010, "March", 2012, "Tashkent, Uzbekistan", "Developed the Card King for mobile phones, compatible for both Android and iOS systems, making it convenient for business people to organize and store business cards",
