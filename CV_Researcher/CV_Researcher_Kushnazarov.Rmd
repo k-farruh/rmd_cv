@@ -94,8 +94,8 @@ df_skills %>%
 ```{r selectPubs}
 
 # Publications
-bibliography_entries("../input/publications.bib") %>%
-  arrange(desc(year), author)
+bibliography_entries("../input/publications.bib") %>% arrange(desc(issued),
+author)
 ```
 
 # Projects
