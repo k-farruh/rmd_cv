@@ -110,10 +110,11 @@ df_skills %>%
 
 # Selected Publications
 ```{r selectPubs}
+
 selected_publications = c("farruhpatent2015", "Farruh2019DataSC", "kushnazarov2020consumer")
 bibliography_entries("../input/publications.bib") %>%
-  filter(key %in% selected_publications) %>%
-  arrange(desc(year), author)
+  filter(id %in% selected_publications) %>%
+  arrange(desc(issued), author)
 ```
 
 # Selected Accomplishments

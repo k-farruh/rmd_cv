@@ -96,13 +96,13 @@ if (!file.exists(file_path_experience) | is_write) {
     df_experience <- tribble(
         ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
         # TutorABC
-        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "Till now", NA, "Shanghai, China", "Languages --- Python, R, RMarkdown, SQL, Spark and Hive",
-        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "Till now", NA, "Shanghai, China", "NLP: have done projects like text classification, sentiment analysis, and text summarization.",
-        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "Till now", NA, "Shanghai, China", "Implemented and retrained Mozilla DeepSpeech library for Automatic Speech Recognition",
-        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "Till now", NA, "Shanghai, China", "Created and tested the Speech Accent Classification System for native and non-native speakers, with a rate of 99% in metric recall",
-        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "Till now", NA, "Shanghai, China", "Conducted classification analyses of the customer life cycle stage to increase overall turnover",
-        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "Till now", NA, "Shanghai, China", "With algorithmic, optimized ongoing ML/DL models and checked the performance of implemented models",
-        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "Till now", NA, "Shanghai, China", "Established the Machine Learning model for refund customers and updated the refund model. Decreased the overall refund rate to 27%",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "November", 2020, "Shanghai, China", "Languages --- Python, R, RMarkdown, SQL, Spark and Hive",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "November", 2020, "Shanghai, China", "NLP: have done projects like text classification, sentiment analysis, and text summarization.",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "November", 2020, "Shanghai, China", "Implemented and retrained Mozilla DeepSpeech library for Automatic Speech Recognition",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "November", 2020, "Shanghai, China", "Created and tested the Speech Accent Classification System for native and non-native speakers, with a rate of 99% in metric recall",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "November", 2020, "Shanghai, China", "Conducted classification analyses of the customer life cycle stage to increase overall turnover",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "November", 2020, "Shanghai, China", "With algorithmic, optimized ongoing ML/DL models and checked the performance of implemented models",
+        "Big Data & Data Scientist Manager", "Ping An Hao Xue, under Ping An (平安) China", "September", 2016, "November", 2020, "Shanghai, China", "Established the Machine Learning model for refund customers and updated the refund model. Decreased the overall refund rate to 27%",
         # PeriPlus AG
         "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Languages --- Python, R, RMarkdown and SQL",
         "Data Scientist (Consultant)", "PeriPlus AG (Part-Time)", "November", 2018, "July", 2019, "Online", "Implemented AI/ML/DL projects",
