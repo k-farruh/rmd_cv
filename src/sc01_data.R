@@ -40,6 +40,7 @@ file_path_accomplishments = file.path(folder_path, "accomplishments.csv")
 if (!file.exists(file_path_accomplishments) | is_write) {
     df_accomplishments <- tribble(
         ~area, ~detail, ~year, ~where, ~accomplishment,
+        "\\href{https://coursera.org/share/19422df31a28465322d72001177d99bb}{IBM and Coursera}", "Machine Learning with Python", 2020, "Online", "IBM",
         "\\href{https://coursera.org/share/0bf6cab184657077fca8ef68546282d7}{IBM and Coursera}", "Data Analysis with Python", 2020, "Online", "IBM"
         , "\\href{https://coursera.org/share/cc15ca08932280d703e875e988ae59c0}{IBM and Coursera}", "Databases and SQL for Data Science", 2020, "Online", "IBM"
         , "\\href{https://coursera.org/share/aa14fdabcf5378ea4c99a72993525546}{IBM and Coursera}", "Python for Data Science and AI", 2020, "Online", "IBM"
