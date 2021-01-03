@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.24)  23 DEC 2020 00:02
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.24)  3 JAN 2021 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1056,11 +1056,11 @@ sPro(0)/m/n/10.95 (.na.character),.na.character. []$[][][][][] [] [] [] [][][]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 343.
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 362.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 362.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 364.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 364.
 (./CV_Researcher_Kushnazarov.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 362.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 362.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 364.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 364.
 Package rerunfilecheck Info: File `CV_Researcher_Kushnazarov.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1071,7 +1071,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  33935 strings out of 481674
  683629 string characters out of 5932826
- 1127571 words of memory out of 5000000
+ 1127574 words of memory out of 5000000
  50464 multiletter control sequences out of 15000+600000
  539556 words of font info for 133 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

@@ -32,7 +32,7 @@ if (!file.exists(file_path_projects) | is_write) {
         , "IntellektTrans", "Intelligent rail system transportation summit. As one of the members of the Organizing Committee of the intelligent rail system transportation summit, the organization participated in the summit and attended the meeting", 2009, "\\href{https://intelligenttransportconference.com}{Conference WebPage}", "Volunteer"
     )
     
-    write_csv(df_projects, path = file_path_projects)
+    write_csv(df_projects, file = file_path_projects)
 }
 
 ##### Accomplishments #####
@@ -40,6 +40,8 @@ file_path_accomplishments = file.path(folder_path, "accomplishments.csv")
 if (!file.exists(file_path_accomplishments) | is_write) {
     df_accomplishments <- tribble(
         ~area, ~detail, ~year, ~where, ~accomplishment,
+        "\\href{https://coursera.org/share/202809cc693c74d7fb964add4908488c}{IBM and Coursera}", "IBM Data Science", 2020, "Online", "IBM",
+        "\\href{https://coursera.org/share/bde51a23297f79f29d143b20d9ac9a7a}{IBM and Coursera}", "Applied Data Science Capstone", 2020, "Online", "IBM",
         "\\href{https://coursera.org/share/19422df31a28465322d72001177d99bb}{IBM and Coursera}", "Machine Learning with Python", 2020, "Online", "IBM",
         "\\href{https://coursera.org/share/0bf6cab184657077fca8ef68546282d7}{IBM and Coursera}", "Data Analysis with Python", 2020, "Online", "IBM"
         , "\\href{https://coursera.org/share/cc15ca08932280d703e875e988ae59c0}{IBM and Coursera}", "Databases and SQL for Data Science", 2020, "Online", "IBM"
@@ -58,7 +60,7 @@ if (!file.exists(file_path_accomplishments) | is_write) {
         , "\\href{https://www.intuit.ru/verifydiplomas/00163698}{Intuit National Open University}", "The C Programming Language", 2012, "Online", ""
         , "\\href{https://www.intuit.ru/verifydiplomas/100998270}{Intuit National Open University}", "Data Mining", 2016, "Online", ""
     )
-    write_csv(df_accomplishments, path = file_path_accomplishments)
+    write_csv(df_accomplishments, file = file_path_accomplishments)
 }
 
 ##### Skills #####
@@ -73,7 +75,7 @@ if (!file.exists(file_path_skills) | is_write) {
         "Statistics", "Machine learning, data analysis, generalized linear regression, cluster analysis, factor analysis, principal components analysis (PCA), cross validation, generalized additive models, data analytics",
         "Environments", "Linux, Jupyter-Lab, PyTorch, RStudio, ETL, SQL Server Management Studio, Azure Data Studio",
     )
-    write_csv(df_skills, path = file_path_skills)
+    write_csv(df_skills, file = file_path_skills)
 }
 
 ##### Education #####
@@ -88,7 +90,7 @@ if (!file.exists(file_path_education) | is_write) {
         , "Emperor Alexander I St.Petersburg State Transport University", "September", 2004, "June", 2008, "Information systems and technologies", "St Petersburg, Russia", "Degree: Bachelor of Computer Science"
         , "Emperor Alexander I St.Petersburg State Transport University", "September", 2004, "June", 2008, "Information systems and technologies", "St Petersburg, Russia","Research Field: Develop and optimize computer network systems"
     )
-    write_csv(df_education, path = file_path_education)
+    write_csv(df_education, file = file_path_education)
 }
 
 ##### Experience #####
@@ -133,7 +135,7 @@ if (!file.exists(file_path_experience) | is_write) {
         "Assistant of Professor", "Tashkent Railway Engineering Institute", "September", 2010, "July", 2012, "Tashkent, Uzbekistan", "Information systems on railway transport",
         "Assistant of Professor", "Tashkent Railway Engineering Institute", "September", 2010, "July", 2012, "Tashkent, Uzbekistan", "To assist the professor in research work, create application parts, and simulation parts of analytical models"
     )
-    write_csv(df_experience, path = file_path_experience)
+    write_csv(df_experience, file = file_path_experience)
 }
 
 
