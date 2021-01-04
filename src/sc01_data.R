@@ -40,16 +40,7 @@ file_path_accomplishments = file.path(folder_path, "accomplishments.csv")
 if (!file.exists(file_path_accomplishments) | is_write) {
     df_accomplishments <- tribble(
         ~area, ~detail, ~year, ~where, ~accomplishment,
-        "\\href{https://coursera.org/share/202809cc693c74d7fb964add4908488c}{IBM and Coursera}", "IBM Data Science", 2020, "Online", "IBM",
-        "\\href{https://coursera.org/share/bde51a23297f79f29d143b20d9ac9a7a}{IBM and Coursera}", "Applied Data Science Capstone", 2020, "Online", "IBM",
-        "\\href{https://coursera.org/share/19422df31a28465322d72001177d99bb}{IBM and Coursera}", "Machine Learning with Python", 2020, "Online", "IBM",
-        "\\href{https://coursera.org/share/0bf6cab184657077fca8ef68546282d7}{IBM and Coursera}", "Data Analysis with Python", 2020, "Online", "IBM"
-        , "\\href{https://coursera.org/share/cc15ca08932280d703e875e988ae59c0}{IBM and Coursera}", "Databases and SQL for Data Science", 2020, "Online", "IBM"
-        , "\\href{https://coursera.org/share/aa14fdabcf5378ea4c99a72993525546}{IBM and Coursera}", "Python for Data Science and AI", 2020, "Online", "IBM"
-        , "\\href{https://coursera.org/share/4341233b19c0236a10152ce5004132d0}{IBM and Coursera}", "Data Science Methodology", 2020, "Online", "IBM"
-        , "\\href{https://coursera.org/share/e17f5f15b464ce03e49816e5ed7a8e4d}{IBM and Coursera}", "Tools for Data Science", 2020, "Online", "IBM"
-        , "\\href{https://coursera.org/share/49b6509c1ef55a814e5e2869dc37bcaf}{IBM and Coursera}", "Data Visualization with Python", 2020, "Online", "IBM"
-        , "\\href{https://www.coursera.org/account/accomplishments/certificate/REVKFDAVDB2S}{IBM and Coursera}", "What's Data Scientists", 2020, "Online", "IBM"
+        "\\href{https://coursera.org/share/202809cc693c74d7fb964add4908488c}{IBM and Coursera}", "IBM Data Science", 2020, "Online", "IBM"
         , "DELL-EMC", "Data Science - effective use of data", 2012, "St Petersburg, Russia", "DELL-EMC-Academic Alliance"
         , "DELL-EMC", "ISM - administration of information and data storage", 2012, "St Petersburg, Russia", "DELL-EMC-Academic Alliance"
         , "\\href{https://k-farruh.github.io/files/accomplishments/ai/big_data_university.pdf}{Big Data University}", "Big Data 101", 2017, "Online", "IBM"

@@ -101,7 +101,8 @@ df_projects %>%
 # Data Science Skills
 ```{r skills}
 df_skills %>%
-  filter(area != "Numerical Methods") %>% 
+  filter(area != "Environments" &
+           area != "Communication") %>% 
   detailed_entries(
     with = area,
     what = skills
@@ -120,8 +121,8 @@ bibliography_entries("../input/publications.bib") %>%
 # Selected Accomplishments
 ```{r accomplishments}
 df_accomplishments %>%
-  filter(detail == 'Data Analysis with Python' |
-         detail == 'Data Science - effective use of data') %>% 
+  filter(detail == 'IBM Data Science' |
+         detail == 'Data Science - effective use of data') %>%
   arrange(desc(year)) %>% 
   brief_entries(
     when = year
