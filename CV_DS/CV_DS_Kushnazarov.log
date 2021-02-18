@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.24)  4 JAN 2021 22:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.24)  18 FEB 2021 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1018,22 +1018,24 @@ LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/m/sc' undefined
 
 ]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 226.
+(Font)              scaled to size 10.95pt on input line 225.
 
-Overfull \hbox (2.26839pt too wide) in paragraph at lines 236--241
-\TU/SourceSansPro(0)/m/n/10.95 model (Patent No. RU 2015619739). In\TU/SourceSa
-nsPro(0)/m/it/10.95 .na.character: Vol.na.character \TU/SourceSansPro(0)/m/n/10
-.95 (Patent RU 2015619739)..na.character. []$[][][][][] []
+Overfull \hbox (241.63739pt too wide) in paragraph at lines 227--231
+\TU/SourceSansPro(0)/m/n/10.95 chOpen. []$[][][][][] [] [] [] [][][] [] [][][][
+][][][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][]$[] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 246.
+(Font)              scaled to size 9.0pt on input line 242.
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
 (./CV_DS_Kushnazarov.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 246.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
 Package rerunfilecheck Info: File `CV_DS_Kushnazarov.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
