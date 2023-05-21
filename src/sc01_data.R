@@ -92,20 +92,14 @@ file_path_experience = file.path(folder_path, "experience.csv")
 if (!file.exists(file_path_experience) | is_write) {
     df_experience <- tribble(
         ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-        # Fest 
-        "Head of Software/IoT Solutions", "FEST", "December", 2022, "Present", NA, "Singapore", "Drive the overall roadmap and strategic vision for the future of IOT and experiences ensuring a robust product roadmap to support the FEST digital solutions strategy",
-        "Head of Software/IoT Solutions", "FEST", "December", 2022, "Present", NA, "Singapore", "Build best in class user experiences and solutions that enable quick and easy integration of FEST solutions",
-        "Head of Software/IoT Solutions", "FEST", "December", 2022, "Present", NA, "Singapore", "Establish supporting business cases, product concepts, product definition statements, and product design/construction requirements",
-        "Head of Software/IoT Solutions", "FEST", "December", 2022, "Present", NA, "Singapore", "Ensure the product strategy and goals are in alignment with various internal teams including Innovation and Strategic Partnerships, Regional teams, Sales, Marketing, Global Systems and Client Support",
-        "Head of Software/IoT Solutions", "FEST", "December", 2022, "Present", NA, "Singapore", "Apply industry expertise with knowledge of FEST’s global market opportunities, consumers, merchants, issuers, enabling partners, and competition",
         # Alibaba Cloud
-        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "December", 2022, "Hangzhou, China", "Building and integrating information systems related to AI, Big Data to meet the company’s needs",
-        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "December", 2022, "Hangzhou, China", "Assessing the systems architecture currently in place or working as technical staff to recommend solutions to improve it",
-        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "December", 2022, "Hangzhou, China", "Resolving technical AI/ML/DL problems as they arise",
-        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "December", 2022, "Hangzhou, China", "Providing supervision and guidance to development teams",
-        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "December", 2022, "Hangzhou, China", "Continually researching the current and emerging technologies in the field of computer vision, NLP, etc, and proposing changes where needed",
-        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "December", 2022, "Hangzhou, China", "Assessing the business impact that certain technical choices have",
-        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "December", 2022, "Hangzhou, China", "Providing updates to stakeholders on product development processes, costs, and budgetse",
+        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "Present", NA, "Hangzhou, China", "Building and integrating information systems related to AI, Big Data to meet the company’s needs",
+        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "Present", NA, "Hangzhou, China", "Assessing the systems architecture currently in place or working as technical staff to recommend solutions to improve it",
+        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "Present", NA, "Hangzhou, China", "Resolving technical AI/ML/DL problems as they arise",
+        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "Present", NA, "Hangzhou, China", "Providing supervision and guidance to development teams",
+        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "Present", NA, "Hangzhou, China", "Continually researching the current and emerging technologies in the field of computer vision, NLP, etc, and proposing changes where needed",
+        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "Present", NA, "Hangzhou, China", "Assessing the business impact that certain technical choices have",
+        "Senior Solutions Architect", "Alibaba Cloud Global", "April", 2022, "Present", NA, "Hangzhou, China", "Providing updates to stakeholders on product development processes, costs, and budgetse",
         # Midea HBT
         "Senior Data Scientist", "Midea HBT", "November", 2020, "April", 2022, "Foshan, China", "Languages --- Tensorflow, Keras, Python, SPARQL, Cypher, RDF, Ontology",
         "Senior Data Scientist", "Midea HBT", "November", 2020, "April", 2022, "Foshan, China", "Use data science methods to work with domain experts to develop and implement data-driven solutions",
