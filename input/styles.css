@@ -1,0 +1,28 @@
+#nextsteps {
+   color: grey;
+}
+
+.emphasized {
+   font-size: 1.2em;
+}
+
+.custom_table, .custom_table tr, .custom_table td{text-align:left; border: none !important;}
+
+.image_thumbnail img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+.image_thumbnail img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+figcaption {
+  font-size: 6px;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}

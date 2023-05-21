@@ -1,0 +1,136 @@
+---
+name: Farruh
+surname: Kushnazarov
+position: "Senior Data Scientist"
+address: "Shanghai/China"
+profilepic: "./../input/img/cropped.jpg"
+phone: "+86 173 2116 0407"
+email: "k.farruh@bk.ru"
+www: "k-farruh.github.io"
+github: k-farruh
+linkedin: k-farruh
+# orcid: 0000-0003-0347-6234
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000
+aboutme: "A self-sufficient data scientist with 4+ years experiences in executing data-driven solutions to increase efficiency and accuracy. Always passionate for software, database, and data science."
+docname: CV
+output: vitae::awesomecv
+editor_options: 
+  chunk_output_type: console
+header-includes:
+  - \usepackage{xeCJK}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+if (!require(glue)) {install.packages("glue")}
+if (!require(lubridate)) {install.packages("lubridate")}
+if (!require(rlang)) {install.packages("rlang")}
+if (!require(tidyverse)) {install.packages("tidyverse")}
+if (!require(vitae)) {install.packages("vitae")}
+if (!require(here)) {install.packages("here")}
+```
+
+```{r loadData}
+source(file = "../src/sc01_data.R")
+folder_path = "../input/data"
+
+# Education
+df_education <- read_csv(file.path(folder_path, "education.csv"))
+
+# Experience
+df_experience <- read_csv(file.path(folder_path, "experience.csv"))
+
+# Accomplishments
+df_accomplishments <- read_csv(file.path(folder_path, "accomplishments.csv"))
+
+# Projects
+df_projects <- read_csv(file.path(folder_path, "projects.csv"))
+
+# Skills
+df_skills <- read_csv(file.path(folder_path, "skills.csv"))
+```
+
+# Experience
+```{r experience}
+df_experience %>% 
+  filter(startYear >= 2015) %>%
+  detailed_entries(
+  with = title,
+  what = unit,
+  why = detail,
+  when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+  where = where
+  )
+
+```
+
+# Education
+```{r education}
+# Merge joint PhD entries
+df_education %>%
+  # filter(startYear == 2012) %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+```
+
+# Selected Projects
+```{r projects}
+df_projects %>%
+  filter(year > 2018) %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where,
+    .protect = FALSE
+  )
+```
+
+<!-- \pagebreak -->
+
+# Data Science Skills
+```{r skills}
+df_skills %>%
+  filter(area != "Environments" &
+           area != "Communication") %>% 
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+```
+
+# Selected Publications
+```{r selectPubs}
+
+selected_publications = c("Li2022Sep", "kushnazarov2021if","farruhpatent2015", "Farruh2019DataSC") #, "kushnazarov2020consumer")
+bibliography_entries("../input/publications.bib") %>%
+  filter(id %in% selected_publications) %>%
+  arrange(desc(issued), author)
+```
+
+<!-- # Selected Accomplishments -->
+<!-- ```{r accomplishments} -->
+<!-- df_accomplishments %>% -->
+<!--   filter(detail == 'IBM Data Science' | -->
+<!--          detail == 'Data Science - effective use of data' | -->
+<!--          detail == "Certificate of knowledge of ABB technology I-III") %>% -->
+<!--   arrange(desc(year)) %>%  -->
+<!--   brief_entries( -->
+<!--     when = year -->
+<!--     , what = detail -->
+<!--     , with = area -->
+<!--     # , when = year -->
+<!--     # , where = where, -->
+<!--     , .protect = FALSE -->
+<!--   ) -->
+<!-- ``` -->

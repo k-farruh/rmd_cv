@@ -1,0 +1,126 @@
+---
+name: 法如赫 - Farruh
+surname: Kushnazarov
+position: "资深数据科学家"
+address: "中国/上海"
+phone: +86 173 2116 0407
+www: k-farruh.github.io
+email: "k.farruh@bk.ru"
+github: k-farruh
+linkedin: k-farruh
+orcid: 0000-0003-0347-6234
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000
+aboutme: "我最喜欢的学科是数学和通信网络系统。 因此，涉及到通信网络系统。 作为研究人员，我不仅在理论方面进行了考虑，而且还与多家公司合作进行应用。 此外，每个结果都为在数据中心，智能城市和其他项目上的实施提供了。 在俄罗斯，尤其是圣彼得堡研究人员，我的论文在其他研究人员的数十次会议中经常被引用和讨论。 每年，我都会在国际会议上发表有关人工智能和通信网络领域的科学文章，包括IEEE，ACM等全球学术平台。"
+docname: CV
+output: vitae::awesomecv
+editor_options:
+  chunk_output_type: console
+header-includes:
+  - \usepackage{xeCJK}
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+if (!require(glue)) {install.packages("glue")}
+if (!require(lubridate)) {install.packages("lubridate")}
+if (!require(rlang)) {install.packages("rlang")}
+if (!require(tidyverse)) {install.packages("tidyverse")}
+if (!require(vitae)) {install.packages("vitae")}
+if (!require(here)) {install.packages("here")}
+```
+
+```{r loadData}
+
+source(file = here("src", "sc01_data_cn.R"))
+
+folder_path = "../input/data_cn"
+
+# Accomplishments
+df_accomplishments <- read_csv(file.path(folder_path, "accomplishments.csv"))
+
+# Education
+df_education <- read_csv(file.path(folder_path, "education.csv"))
+
+# Experience
+df_experience <- read_csv(file.path(folder_path, "experience.csv"))
+
+# Projects
+df_projects <- read_csv(file.path(folder_path, "projects.csv"))
+
+# Skills
+df_skills <- read_csv(file.path(folder_path, "skills.csv"))
+```
+
+# 经验a
+```{r experience}
+df_experience %>% 
+    detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+```
+
+# 学术a
+```{r education}
+df_education %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    where = where
+  )
+```
+
+# 数据科学技能
+```{r skills}
+df_skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+```
+
+# 刊物a
+```{r selectPubs}
+
+# Publications
+bibliography_entries("../input/publications.bib") %>%
+  arrange(desc(year), author)
+```
+
+# 专案a
+```{r projects}
+
+df_projects %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where,
+    .protect = FALSE
+  )
+
+```
+
+# 成就a
+```{r accomplishments}
+df_accomplishments %>%
+  arrange(desc(year)) %>% 
+  brief_entries(
+    when = year
+    , what = detail
+    , with = area
+    # , when = year
+    # , where = where
+  )
+```

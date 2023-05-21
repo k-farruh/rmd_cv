@@ -1,0 +1,129 @@
+---
+name: Farruh
+surname: Kushnazarov
+position: "Lead Research Engineer"
+address: "China/Shanghai"
+profilepic: "./../input/img/cropped.jpg"
+email: "k.farruh@bk.ru"
+phone: "+86 173 2116 0407"
+www: "k-farruh.github.io"
+github: k-farruh
+linkedin: k-farruh
+orcid: 0000-0003-0347-6234
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000
+aboutme: "My favorite subjects are mathematics and communication network system. Because of this, related to the communication network system. As a researcher, I not only considered in the theoretical part but worked with several companies for applications as well. Moreover, each result was provided for implementations on data-centers, smart-city, and other projects. In Russia, especially Saint-Petersburg researcher, my papers were frequently cited and discussed in dozens of conferences by other researchers. Every year, I publish scientific articles on artificial intelligence and communication network fields in international conferences, including the global academic platforms such as IEEE, ACM, and others."
+docname: CV
+output: vitae::awesomecv
+editor_options: 
+  chunk_output_type: console
+header-includes:
+  - \usepackage{xeCJK}
+  - \usepackage[hidelinks]{hyperref}
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+if (!require(glue)) {install.packages("glue")}
+if (!require(lubridate)) {install.packages("lubridate")}
+if (!require(rlang)) {install.packages("rlang")}
+if (!require(tidyverse)) {install.packages("tidyverse")}
+if (!require(vitae)) {install.packages("vitae")}
+if (!require(here)) {install.packages("here")}
+```
+
+```{r loadData}
+
+source(file = here("src", "sc01_data.R"))
+
+folder_path = "../input/data"
+
+# Accomplishments
+df_accomplishments <- read_csv(file.path(folder_path, "accomplishments.csv"))
+
+# Education
+df_education <- read_csv(file.path(folder_path, "education.csv"))
+
+# Experience
+df_experience <- read_csv(file.path(folder_path, "experience.csv"))
+
+# Projects
+df_projects <- read_csv(file.path(folder_path, "projects.csv"))
+
+# Skills
+df_skills <- read_csv(file.path(folder_path, "skills.csv"))
+```
+
+# Experience
+```{r experience}
+df_experience %>% 
+    detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}", .na = ""),
+    where = where
+  )
+```
+
+# Education
+```{r education}
+df_education %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}", .na = ""),
+    where = where
+  )
+```
+
+# Data Science Skills
+```{r skills}
+df_skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+```
+
+# Publications
+```{r selectPubs}
+
+# Publications
+bibliography_entries("../input/publications.bib") %>%
+  arrange(desc(issued), author)
+```
+
+# Projects
+```{r projects}
+
+df_projects %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where,
+    .protect = FALSE
+  )
+
+```
+
+# Accomplishments
+```{r accomplishments}
+df_accomplishments %>%
+  arrange(desc(year)) %>% 
+  brief_entries(
+    when = year
+    , what = detail
+    , with = area
+    # , when = year
+    # , where = where,
+    , .protect = FALSE
+  )
+```

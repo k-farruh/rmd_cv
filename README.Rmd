@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+if (!require(tidyverse)) {install.packages("tidyverse")}
+if (!require(lubridate)) {install.packages("lubridate")}
+if (!require(glue)) {install.packages("glue")}
+```
+# CV
+
+RMarkdown code for building CV and resumes from education, experience, accomplishment, project and
+skills stored as CSV files and publications stored as BibTeX file. Code depends
+on vitae package. Template is combination of vitae::hyndman and
+template by Steven Miller (http://svmiller.com/blog/2016/03/svm-r-markdown-cv/).
+
+## Example
+```{r}
+if (!require(tidyverse)) {install.packages("tidyverse")}
+if (!require(vitae)) {install.packages("vitae")}
+folder_path = "input/data"
+# Experience section
+df_experience <- read_csv(file.path(folder_path, "experience.csv"))
+
+df_experience %>% 
+  detailed_entries(
+  with = title,
+  what = unit,
+  why = detail,
+  when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+  where = where
+  )
+```
+
+# Projects
+
+RMarkdown code for building projects with reveal.js which can be used to create yet another style of HTML5 slides based on the JavaScript library reveal.js. 

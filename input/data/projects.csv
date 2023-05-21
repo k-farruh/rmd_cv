@@ -1,0 +1,11 @@
+area,accomplishment,year,where,detail
+NLP: Speech Accent Detection,"Everyone who speaks a language, speaks it with an accent. This project defines accents for the english language speakers",2020,\href{https://github.com/k-farruh/speech-accent-detection}{Project Link},Role: Author and Maintainer
+NLP: Speech Accent Detection,"Everyone who speaks a language, speaks it with an accent. This project defines accents for the english language speakers",2020,\href{https://github.com/k-farruh/speech-accent-detection}{Project Link},"Results: Accuracy=.90, Recall=.91 and Precision=.93 "
+NLP: Speech Accent Detection,"Everyone who speaks a language, speaks it with an accent. This project defines accents for the english language speakers",2020,\href{https://github.com/k-farruh/speech-accent-detection}{Project Link},Increase accuracy of ASR (Automatic Speech Recognition)
+NLP: Text classification,Classified to 10 different topics,2019,Private,"Data sources: Title, Description, Text"
+NLP: Text classification,Classified to 10 different topics,2019,Private,Method: LDA
+NLP: Text classification,Classified to 10 different topics,2019,Private,Result: 10 topics. Accuracy=.87
+Moscow Smart Lighting Projects,"Moscow Smart Lighting Projects Project, which is made by 5 different office building groups with different requirements to smart system and linking. Companies main job is to make computer programming of center control and night light adjustment. More then 800 square meters, with 15000 signals from different controllers",2015,\href{http://domussapiens.ru/nashi-obekty/kommercheskie-obekty/moskva-siti}{Project Link},Maintainer
+L-Cube,Implemented at the company L-Cube LLC in order to optimize the performance of the departmental network,2015,\href{https://l-cube.ru/}{Company WebPage},Author and Maintainer
+EMC-DELL,Certificates from EMC2 Data-Center about Value of Research and Possibility of Implementation the Model,2016,\href{https://k-farruh.github.io/files/projects/emc_dell/emc_dell.png}{Implementation Certificate},Author and Maintainer
+IntellektTrans,"Intelligent rail system transportation summit. As one of the members of the Organizing Committee of the intelligent rail system transportation summit, the organization participated in the summit and attended the meeting",2009,\href{https://intelligenttransportconference.com}{Conference WebPage},Volunteer
