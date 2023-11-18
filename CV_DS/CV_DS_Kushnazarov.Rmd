@@ -37,7 +37,7 @@ if (!require(here)) {install.packages("here")}
 
 ```{r loadData}
 source(file = "../src/sc01_data.R")
-folder_path = "../input/data"
+folder_path = "../input/data/"
 
 # Education
 df_education <- read_csv(file.path(folder_path, "education.csv"))

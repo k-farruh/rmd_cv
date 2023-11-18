@@ -12,7 +12,8 @@ linkedin: k-farruh
 orcid: 0000-0003-0347-6234
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
-aboutme: "My favorite subjects are mathematics and communication network system. Because of this, related to the communication network system. As a researcher, I not only considered in the theoretical part but worked with several companies for applications as well. Moreover, each result was provided for implementations on data-centers, smart-city, and other projects. In Russia, especially Saint-Petersburg researcher, my papers were frequently cited and discussed in dozens of conferences by other researchers. Every year, I publish scientific articles on artificial intelligence and communication network fields in international conferences, including the global academic platforms such as IEEE, ACM, and others."
+aboutme: "As a senior solutions architect specializing in AI at Alibaba Cloud Intelligence, I am focused on generative AI, AI/ML/DL problem resolution, and information system development. With a Ph.D. in mathematical modeling, numerical methods, and computer programming, I am dedicated to advancing technologies such as computer vision AI and NLP. I have played vital roles in impactful data science projects at Midea and Ping'An, and my work, featured in leading conferences, seamlessly blends theoretical knowledge with practical applications in AI and communication networks."
+
 docname: CV
 output: vitae::awesomecv
 editor_options: 
