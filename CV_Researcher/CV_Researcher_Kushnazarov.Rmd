@@ -1,7 +1,7 @@
 ---
 name: Farruh
 surname: Kushnazarov
-position: "Lead Research Engineer"
+position: "Senior Solutions Architect"
 address: "China/Shanghai"
 profilepic: "./../input/img/cropped.jpg"
 email: "k.farruh@bk.ru"
