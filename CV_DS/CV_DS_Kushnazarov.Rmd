@@ -1,24 +1,26 @@
 ---
 name: Farruh
 surname: Kushnazarov
-position: "Senior Data Scientist"
+position: "Senior Solutions Architect"
 address: "Shanghai/China"
 profilepic: "./../input/img/cropped.jpg"
-phone: "+86 173 2116 0407"
 email: "k.farruh@bk.ru"
+phone: "+86 173 2116 0407"
 www: "k-farruh.github.io"
 github: k-farruh
 linkedin: k-farruh
 # orcid: 0000-0003-0347-6234
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
-aboutme: "A self-sufficient data scientist with 4+ years experiences in executing data-driven solutions to increase efficiency and accuracy. Always passionate for software, database, and data science."
+aboutme: "As an self-sufficient AI engineer with more than 8 years of experience, I proficiently execute data-driven solutions to enhance efficiency and accuracy. My passion for software, databases, and AI drives me to deliver cutting-edge solutions."
+
 docname: CV
 output: vitae::awesomecv
 editor_options: 
   chunk_output_type: console
 header-includes:
   - \usepackage{xeCJK}
+  - \usepackage[hidelinks]{hyperref}
 ---
 
 ```{r setup, include=FALSE}
@@ -79,7 +81,8 @@ df_education %>%
     what = degree,
     why = detail,
     when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
-    where = where
+    where = where,
+    .protect = FALSE
   )
 ```
 
